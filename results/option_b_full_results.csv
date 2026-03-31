@@ -1,0 +1,13 @@
+group,model,n_hurt,n_benefit,n_evaluated,hurt_recall,hurt_ci_lo,hurt_ci_hi,benefit_recall,benefit_ci_lo,benefit_ci_hi,accuracy,acc_ci_lo,acc_ci_hi,auc,auc_ci_lo,auc_ci_hi,gamma,spearman_rho,spearman_p
+Upper Bound,TREC nDCG@10 (upper bound),14,12,26,0.429,0.214,0.674,0.75,0.468,0.911,0.577,0.389,0.745,0.72,0.518,0.922,0.283,0.347,0.026
+QPP,WIG,14,12,26,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--
+QPP,NQC,14,12,26,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--
+QPP,Clarity,14,12,26,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--
+QPP,SMV,14,12,26,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--
+LLM Pairwise,Qwen-2.5-7B-Instruct (pairwise),14,12,26,0.143,0.04,0.399,0.833,0.552,0.953,0.462,0.288,0.645,0.482,0.256,0.708,-0.029,0.024,0.883
+LLM Pairwise,Qwen-2.5-14B-Instruct (pairwise),14,12,26,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--
+LLM Pairwise,Qwen-2.5-72B-Instruct (pairwise),14,12,26,0.643,0.388,0.837,0.833,0.552,0.953,0.731,0.539,0.863,0.81,0.636,0.984,0.376,0.4,0.01
+LLM Pairwise,Rank-R1-7B-Instruct-SFT (pairwise),14,12,26,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--
+LLM Pairwise,Rank-R1-14B-Instruct-SFT (pairwise),14,12,26,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--
+LLM Setwise,Rank-R1-7B-Instruct (setwise),14,12,26,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--
+LLM Setwise,Rank-R1-14B-Instruct (setwise),14,12,26,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--

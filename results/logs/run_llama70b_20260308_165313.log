@@ -1,0 +1,19 @@
+2026-03-08 16:53:13,414  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/run_llama70b_20260308_165313.log
+2026-03-08 16:53:13,751  INFO      Running SC-Pairwise-Llama-70B with 43 queries, R=5, temp=0.7
+2026-03-08 16:53:13,751  INFO      --- SC-Pairwise-Llama-70B run 1/5 ---
+2026-03-08 17:11:50,889  INFO        Run 1 complete
+2026-03-08 17:11:50,904  INFO      --- SC-Pairwise-Llama-70B run 2/5 ---
+2026-03-08 17:30:28,963  INFO        Run 2 complete
+2026-03-08 17:30:28,965  INFO      --- SC-Pairwise-Llama-70B run 3/5 ---
+2026-03-08 17:43:38,593  INFO        Run 3 complete
+2026-03-08 17:43:38,594  INFO      --- SC-Pairwise-Llama-70B run 4/5 ---
+2026-03-08 17:54:52,276  INFO        Run 4 complete
+2026-03-08 17:54:52,277  INFO      --- SC-Pairwise-Llama-70B run 5/5 ---
+2026-03-08 18:06:08,064  INFO        Run 5 complete
+2026-03-08 18:06:08,064  INFO      All 5 runs complete in 4374.3s
+2026-03-08 18:06:08,081  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Pairwise-Llama-70B_scores.csv
+2026-03-08 18:06:10,362  INFO        SC-Pairwise-Llama-70B-DCG: TPR_H=0.2857, TPR_B=0.25, Acc=0.2692, AUC=0.7917, Gamma=0.3297 (p=0.0296)
+2026-03-08 18:06:12,619  INFO        SC-Pairwise-Llama-70B-MRR: TPR_H=0.5714, TPR_B=0.5833, Acc=0.5769, AUC=0.7976, Gamma=0.3763 (p=0.0126)
+2026-03-08 18:06:14,891  INFO        SC-Pairwise-Llama-70B-Majority@k: TPR_H=0.6429, TPR_B=0.6667, Acc=0.6538, AUC=0.7768, Gamma=0.5106 (p=0.0018)
+2026-03-08 18:06:14,891  INFO      SC-Pairwise-Llama-70B complete.
+2026-03-08 18:06:14,891  INFO      All Llama-3.3-70B methods complete.

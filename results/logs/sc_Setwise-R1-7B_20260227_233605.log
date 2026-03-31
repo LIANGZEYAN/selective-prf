@@ -1,0 +1,29 @@
+2026-02-27 23:36:05,408  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Setwise-R1-7B_20260227_233605.log
+2026-02-27 23:36:05,408  INFO      ============================================================
+2026-02-27 23:36:05,408  INFO      Self-Consistency config: SC-Setwise-R1-7B
+2026-02-27 23:36:05,408  INFO        method      : setwise
+2026-02-27 23:36:05,408  INFO        model       : Qwen/Qwen2.5-7B-Instruct
+2026-02-27 23:36:05,408  INFO        lora        : ielabgroup/Rank-R1-7B-v0.1
+2026-02-27 23:36:05,408  INFO        prompt      : r1
+2026-02-27 23:36:05,408  INFO        temperature : 0.7
+2026-02-27 23:36:05,408  INFO        num_runs    : 5
+2026-02-27 23:36:05,408  INFO      ============================================================
+2026-02-27 23:36:05,468  INFO      Queries: 43
+2026-02-27 23:36:05,521  INFO      Ranker created in 0.1s
+2026-02-27 23:36:05,521  INFO      --- SC run 1/5 ---
+2026-02-28 00:15:41,296  INFO        Run 1 complete
+2026-02-28 00:15:41,312  INFO      --- SC run 2/5 ---
+2026-02-28 00:54:27,914  INFO        Run 2 complete
+2026-02-28 00:54:27,916  INFO      --- SC run 3/5 ---
+2026-02-28 01:33:25,039  INFO        Run 3 complete
+2026-02-28 01:33:25,041  INFO      --- SC run 4/5 ---
+2026-02-28 02:11:18,163  INFO        Run 4 complete
+2026-02-28 02:11:18,164  INFO      --- SC run 5/5 ---
+2026-02-28 02:50:31,091  INFO        Run 5 complete
+2026-02-28 02:50:31,097  INFO      All 5 runs complete in 11665.6s
+2026-02-28 02:50:31,239  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Setwise-R1-7B_scores.csv
+2026-02-28 02:50:34,109  INFO        SC-Setwise-R1-7B-DCG: TPR_H=0.5, TPR_B=0.4167, Acc=0.4615, AUC=0.8214, Gamma=0.4158 (p=0.0054), Rho=0.4637 (p=0.0023)
+2026-02-28 02:50:37,083  INFO        SC-Setwise-R1-7B-MRR: TPR_H=0.6429, TPR_B=0.6667, Acc=0.6538, AUC=0.8393, Gamma=0.4444 (p=0.0028), Rho=0.489 (p=0.0012)
+2026-02-28 02:50:39,937  INFO        SC-Setwise-R1-7B-Unweighted: TPR_H=0.7143, TPR_B=0.6667, Acc=0.6923, AUC=0.8214, Gamma=0.5018 (p=0.0012), Rho=0.5036 (p=0.0008)
+2026-02-28 02:50:39,937  INFO      === SC-Setwise-R1-7B COMPLETE ===
+

@@ -1,0 +1,27 @@
+========================================
+ [1/4] Pairwise-Mistral-24B (posthoc)
+========================================
+2026-03-08 17:03:31,993  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/posthoc_Pairwise-Mistral-24B_20260308_170331.log
+2026-03-08 17:03:31,994  INFO      ============================================================
+2026-03-08 17:03:31,994  INFO      Model config: Pairwise-Mistral-24B
+2026-03-08 17:03:31,994  INFO        method : pairwise
+2026-03-08 17:03:31,994  INFO        model  : mistralai/Mistral-Small-3.1-24B-Instruct-2503
+2026-03-08 17:03:31,994  INFO        lora   : None
+2026-03-08 17:03:31,994  INFO        prompt : None
+2026-03-08 17:03:31,994  INFO      ============================================================
+2026-03-08 17:03:32,087  INFO      Queries: 43 (labels=43, interleaved=43)
+Traceback (most recent call last):
+  File "/mnt/primary/QE audit/rankllm/scripts/run_all_posthoc.py", line 435, in <module>
+    main()
+  File "/mnt/primary/QE audit/rankllm/scripts/run_all_posthoc.py", line 370, in main
+    run_single_model(args.worker)
+  File "/mnt/primary/QE audit/rankllm/scripts/run_all_posthoc.py", line 261, in run_single_model
+    ranker = PairwiseReranker(
+  File "/mnt/primary/QE audit/rankllm/src/posthoc/pairwise.py", line 41, in __init__
+    self._ranker = PairwiseLlmRanker(
+  File "/mnt/primary/QE audit/rankllm/llm-rankers/llmrankers/pairwise.py", line 82, in __init__
+    self.llm = AutoModelForCausalLM.from_pretrained(model_name_or_path,
+  File "/opt/miniconda3/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 574, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized configuration class <class 'transformers.models.mistral3.configuration_mistral3.Mistral3Config'> for this kind of AutoModel: AutoModelForCausalLM.
+Model type should be one of AriaTextConfig, BambaConfig, BartConfig, BertConfig, BertGenerationConfig, BigBirdConfig, BigBirdPegasusConfig, BioGptConfig, BlenderbotConfig, BlenderbotSmallConfig, BloomConfig, CamembertConfig, LlamaConfig, CodeGenConfig, CohereConfig, Cohere2Config, CpmAntConfig, CTRLConfig, Data2VecTextConfig, DbrxConfig, DeepseekV3Config, DiffLlamaConfig, ElectraConfig, Emu3Config, ErnieConfig, FalconConfig, FalconMambaConfig, FuyuConfig, GemmaConfig, Gemma2Config, Gemma3Config, Gemma3TextConfig, GitConfig, GlmConfig, Glm4Config, GotOcr2Config, GPT2Config, GPT2Config, GPTBigCodeConfig, GPTNeoConfig, GPTNeoXConfig, GPTNeoXJapaneseConfig, GPTJConfig, GraniteConfig, GraniteMoeConfig, GraniteMoeSharedConfig, HeliumConfig, JambaConfig, JetMoeConfig, LlamaConfig, Llama4Config, Llama4TextConfig, MambaConfig, Mamba2Config, MarianConfig, MBartConfig, MegaConfig, MegatronBertConfig, MistralConfig, MixtralConfig, MllamaConfig, MoshiConfig, MptConfig, MusicgenConfig, MusicgenMelodyConfig, MvpConfig, NemotronConfig, OlmoConfig, Olmo2Config, OlmoeConfig, OpenLlamaConfig, OpenAIGPTConfig, OPTConfig, PegasusConfig, PersimmonConfig, PhiConfig, Phi3Config, Phi4MultimodalConfig, PhimoeConfig, PLBartConfig, ProphetNetConfig, QDQBertConfig, Qwen2Config, Qwen2MoeConfig, Qwen3Config, Qwen3MoeConfig, RecurrentGemmaConfig, ReformerConfig, RemBertConfig, RobertaConfig, RobertaPreLayerNormConfig, RoCBertConfig, RoFormerConfig, RwkvConfig, Speech2Text2Config, StableLmConfig, Starcoder2Config, TransfoXLConfig, TrOCRConfig, WhisperConfig, XGLMConfig, XLMConfig, XLMProphetNetConfig, XLMRobertaConfig, XLMRobertaXLConfig, XLNetConfig, XmodConfig, ZambaConfig, Zamba2Config.

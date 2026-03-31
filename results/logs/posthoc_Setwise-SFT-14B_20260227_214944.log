@@ -1,0 +1,10 @@
+2026-02-27 21:49:44,287  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/posthoc_Setwise-SFT-14B_20260227_214944.log
+2026-02-27 21:49:44,287  INFO      ============================================================
+2026-02-27 21:49:44,287  INFO      Model config: Setwise-SFT-14B
+2026-02-27 21:49:44,287  INFO        method : setwise
+2026-02-27 21:49:44,287  INFO        model  : Qwen/Qwen2.5-14B-Instruct
+2026-02-27 21:49:44,287  INFO        lora   : ielabgroup/Setwise-SFT-14B-v0.1
+2026-02-27 21:49:44,287  INFO        prompt : base
+2026-02-27 21:49:44,287  INFO      ============================================================
+2026-02-27 21:49:44,335  INFO      Queries: 43 (labels=43, interleaved=43)
+2026-02-27 21:49:44,340  INFO      Ranker created in 0.0s

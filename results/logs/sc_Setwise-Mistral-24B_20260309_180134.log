@@ -1,0 +1,13 @@
+2026-03-09 18:01:34,755  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Setwise-Mistral-24B_20260309_180134.log
+2026-03-09 18:01:34,755  INFO      ============================================================
+2026-03-09 18:01:34,755  INFO      Self-Consistency config: SC-Setwise-Mistral-24B
+2026-03-09 18:01:34,755  INFO        method      : setwise
+2026-03-09 18:01:34,755  INFO        model       : mistralai/Mistral-Small-3.1-24B-Instruct-2503
+2026-03-09 18:01:34,755  INFO        lora        : None
+2026-03-09 18:01:34,755  INFO        prompt      : base
+2026-03-09 18:01:34,756  INFO        temperature : 0.7
+2026-03-09 18:01:34,756  INFO        num_runs    : 5
+2026-03-09 18:01:34,756  INFO      ============================================================
+2026-03-09 18:01:34,812  INFO      Queries: 43
+2026-03-09 18:01:35,549  INFO      Ranker created in 0.7s
+2026-03-09 18:01:35,549  INFO      --- SC run 1/5 ---

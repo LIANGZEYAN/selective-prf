@@ -1,0 +1,29 @@
+2026-02-28 02:50:43,561  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Setwise-R1-14B_20260228_025043.log
+2026-02-28 02:50:43,561  INFO      ============================================================
+2026-02-28 02:50:43,561  INFO      Self-Consistency config: SC-Setwise-R1-14B
+2026-02-28 02:50:43,561  INFO        method      : setwise
+2026-02-28 02:50:43,561  INFO        model       : Qwen/Qwen2.5-14B-Instruct
+2026-02-28 02:50:43,561  INFO        lora        : ielabgroup/Rank-R1-14B-v0.1
+2026-02-28 02:50:43,561  INFO        prompt      : r1
+2026-02-28 02:50:43,561  INFO        temperature : 0.7
+2026-02-28 02:50:43,562  INFO        num_runs    : 5
+2026-02-28 02:50:43,562  INFO      ============================================================
+2026-02-28 02:50:43,660  INFO      Queries: 43
+2026-02-28 02:50:43,773  INFO      Ranker created in 0.1s
+2026-02-28 02:50:43,774  INFO      --- SC run 1/5 ---
+2026-02-28 04:07:21,502  INFO        Run 1 complete
+2026-02-28 04:07:21,933  INFO      --- SC run 2/5 ---
+2026-02-28 05:22:47,815  INFO        Run 2 complete
+2026-02-28 05:22:47,816  INFO      --- SC run 3/5 ---
+2026-02-28 06:38:14,054  INFO        Run 3 complete
+2026-02-28 06:38:14,057  INFO      --- SC run 4/5 ---
+2026-02-28 07:52:44,647  INFO        Run 4 complete
+2026-02-28 07:52:44,649  INFO      --- SC run 5/5 ---
+2026-02-28 09:07:20,390  INFO        Run 5 complete
+2026-02-28 09:07:20,391  INFO      All 5 runs complete in 22596.7s
+2026-02-28 09:07:20,698  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Setwise-R1-14B_scores.csv
+2026-02-28 09:07:23,728  INFO        SC-Setwise-R1-14B-DCG: TPR_H=0.5714, TPR_B=0.3333, Acc=0.4615, AUC=0.8512, Gamma=0.4444 (p=0.0026), Rho=0.5149 (p=0.0006)
+2026-02-28 09:07:26,370  INFO        SC-Setwise-R1-14B-MRR: TPR_H=0.7143, TPR_B=0.5833, Acc=0.6538, AUC=0.8452, Gamma=0.4659 (p=0.0016), Rho=0.5222 (p=0.0005)
+2026-02-28 09:07:30,283  INFO        SC-Setwise-R1-14B-Unweighted: TPR_H=0.7857, TPR_B=0.75, Acc=0.7692, AUC=0.8363, Gamma=0.585 (p=0.0002), Rho=0.5642 (p=0.0001)
+2026-02-28 09:07:30,283  INFO      === SC-Setwise-R1-14B COMPLETE ===
+

@@ -1,0 +1,34 @@
+========================================
+ [1/4] Pairwise-Mistral-24B (posthoc)
+========================================
+2026-03-08 17:07:48,505  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/posthoc_Pairwise-Mistral-24B_20260308_170748.log
+2026-03-08 17:07:48,506  INFO      ============================================================
+2026-03-08 17:07:48,506  INFO      Model config: Pairwise-Mistral-24B
+2026-03-08 17:07:48,506  INFO        method : pairwise
+2026-03-08 17:07:48,506  INFO        model  : mistralai/Mistral-Small-3.1-24B-Instruct-2503
+2026-03-08 17:07:48,506  INFO        lora   : None
+2026-03-08 17:07:48,506  INFO        prompt : None
+2026-03-08 17:07:48,506  INFO      ============================================================
+2026-03-08 17:07:48,661  INFO      Queries: 43 (labels=43, interleaved=43)
+The model weights are not tied. Please use the `tie_weights` method before using the `infer_auto_device` function.
+Loading checkpoint shards:   0%|                                                                                                              | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:  10%|██████████                                                                                           | 1/10 [04:01<36:12, 241.43s/it]Loading checkpoint shards:  20%|████████████████████▏                                                                                | 2/10 [08:24<33:52, 254.01s/it]Loading checkpoint shards:  30%|██████████████████████████████▎                                                                      | 3/10 [10:36<23:09, 198.49s/it]Loading checkpoint shards:  40%|████████████████████████████████████████▍                                                            | 4/10 [12:13<15:50, 158.34s/it]Loading checkpoint shards:  50%|██████████████████████████████████████████████████▌                                                  | 5/10 [12:35<09:06, 109.34s/it]Loading checkpoint shards:  60%|█████████████████████████████████████████████████████████████▏                                        | 6/10 [12:59<05:20, 80.16s/it]Loading checkpoint shards:  70%|███████████████████████████████████████████████████████████████████████▍                              | 7/10 [13:25<03:07, 62.49s/it]Loading checkpoint shards:  70%|██████████████████████████████████████████████████████████████████████▋                              | 7/10 [13:25<05:45, 115.08s/it]
+Traceback (most recent call last):
+  File "/mnt/primary/QE audit/rankllm/scripts/run_all_posthoc.py", line 435, in <module>
+    main()
+  File "/mnt/primary/QE audit/rankllm/scripts/run_all_posthoc.py", line 370, in main
+    run_single_model(args.worker)
+  File "/mnt/primary/QE audit/rankllm/scripts/run_all_posthoc.py", line 261, in run_single_model
+    ranker = PairwiseReranker(
+  File "/mnt/primary/QE audit/rankllm/src/posthoc/pairwise.py", line 41, in __init__
+    self._ranker = PairwiseLlmRanker(
+  File "/mnt/primary/QE audit/rankllm/llm-rankers/llmrankers/pairwise.py", line 85, in __init__
+    full_model = Mistral3ForConditionalGeneration.from_pretrained(
+  File "/opt/miniconda3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 279, in _wrapper
+    return func(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4399, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/opt/miniconda3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4822, in _load_pretrained_model
+    state_dict = load_state_dict(
+  File "/opt/miniconda3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 513, in load_state_dict
+    with safe_open(checkpoint_file, framework="pt") as f:
+safetensors_rust.SafetensorError: Error while deserializing header: InvalidHeaderDeserialization

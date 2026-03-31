@@ -1,0 +1,6 @@
+2026-02-28 18:14:06,398  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/run_ensemble_20260228_181406.log
+2026-02-28 18:14:09,348  INFO      DR-R1-7b — Acc=0.5385  AUC=0.8274
+2026-02-28 18:14:12,324  INFO      DR-R1-14b — Acc=0.5385  AUC=0.8393
+2026-02-28 18:14:15,171  INFO      DR-R1-7b-sft — Acc=0.5385  AUC=0.8036
+2026-02-28 18:14:18,105  INFO      DR-R1-14b-sft — Acc=0.5385  AUC=0.7917
+2026-02-28 18:14:18,105  INFO      Ensemble methods complete.

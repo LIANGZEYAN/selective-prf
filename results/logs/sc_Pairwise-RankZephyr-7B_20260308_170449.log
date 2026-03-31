@@ -1,0 +1,29 @@
+2026-03-08 17:04:49,546  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Pairwise-RankZephyr-7B_20260308_170449.log
+2026-03-08 17:04:49,547  INFO      ============================================================
+2026-03-08 17:04:49,547  INFO      Self-Consistency config: SC-Pairwise-RankZephyr-7B
+2026-03-08 17:04:49,547  INFO        method      : pairwise
+2026-03-08 17:04:49,547  INFO        model       : castorini/rank_zephyr_7b_v1_full
+2026-03-08 17:04:49,547  INFO        lora        : None
+2026-03-08 17:04:49,547  INFO        prompt      : None
+2026-03-08 17:04:49,547  INFO        temperature : 0.7
+2026-03-08 17:04:49,547  INFO        num_runs    : 5
+2026-03-08 17:04:49,547  INFO      ============================================================
+2026-03-08 17:04:49,705  INFO      Queries: 43
+2026-03-08 17:04:58,837  INFO      Ranker created in 9.1s
+2026-03-08 17:04:58,838  INFO      --- SC run 1/5 ---
+2026-03-08 17:06:20,749  INFO        Run 1 complete
+2026-03-08 17:06:20,750  INFO      --- SC run 2/5 ---
+2026-03-08 17:07:42,275  INFO        Run 2 complete
+2026-03-08 17:07:42,292  INFO      --- SC run 3/5 ---
+2026-03-08 17:09:04,046  INFO        Run 3 complete
+2026-03-08 17:09:04,047  INFO      --- SC run 4/5 ---
+2026-03-08 17:10:25,629  INFO        Run 4 complete
+2026-03-08 17:10:25,645  INFO      --- SC run 5/5 ---
+2026-03-08 17:11:47,542  INFO        Run 5 complete
+2026-03-08 17:11:47,543  INFO      All 5 runs complete in 417.8s
+2026-03-08 17:11:47,600  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Pairwise-RankZephyr-7B_scores.csv
+2026-03-08 17:11:50,175  INFO        SC-Pairwise-RankZephyr-7B-DCG: TPR_H=0.0714, TPR_B=0.0, Acc=0.0385, AUC=0.4821, Gamma=-0.0422 (p=0.7826), Rho=0.0136 (p=0.9327)
+2026-03-08 17:11:53,786  INFO        SC-Pairwise-RankZephyr-7B-MRR: TPR_H=0.1429, TPR_B=0.6667, Acc=0.3846, AUC=0.5089, Gamma=-0.0166 (p=0.9186), Rho=0.0359 (p=0.8234)
+2026-03-08 17:11:56,878  INFO        SC-Pairwise-RankZephyr-7B-Majority@k: TPR_H=0.0714, TPR_B=0.5833, Acc=0.3077, AUC=0.4673, Gamma=-0.0847 (p=0.6817), Rho=-0.0115 (p=0.9432)
+2026-03-08 17:11:56,878  INFO      === SC-Pairwise-RankZephyr-7B COMPLETE ===
+

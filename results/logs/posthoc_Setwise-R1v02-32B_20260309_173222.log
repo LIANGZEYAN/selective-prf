@@ -1,0 +1,10 @@
+2026-03-09 17:32:22,015  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/posthoc_Setwise-R1v02-32B_20260309_173222.log
+2026-03-09 17:32:22,015  INFO      ============================================================
+2026-03-09 17:32:22,015  INFO      Model config: Setwise-R1v02-32B
+2026-03-09 17:32:22,015  INFO        method : setwise
+2026-03-09 17:32:22,015  INFO        model  : Qwen/Qwen3-32B
+2026-03-09 17:32:22,016  INFO        lora   : ielabgroup/Rank-R1-32B-v0.2
+2026-03-09 17:32:22,016  INFO        prompt : r1-v02
+2026-03-09 17:32:22,016  INFO      ============================================================
+2026-03-09 17:32:22,038  INFO      Queries: 43 (labels=43, interleaved=43)
+2026-03-09 17:32:22,046  INFO      Ranker created in 0.0s

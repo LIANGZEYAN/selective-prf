@@ -1,0 +1,57 @@
+2026-03-13 17:05:51,011  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/approach_1b_20260313_170551.log
+2026-03-13 17:05:51,027  INFO      Loaded 43 queries, 26 labelled
+2026-03-13 17:05:51,028  INFO      
+============================================================
+Model: Qwen3-8B
+============================================================
+2026-03-13 17:05:54,203  INFO      Loading model: Qwen/Qwen3-8B (thinking=False, lora=None)
+2026-03-13 17:06:10,353  INFO        Prompt 'direct': 215 generations
+2026-03-13 17:07:14,120  INFO        Prompt 'cot': 215 generations
+2026-03-13 17:08:34,457  INFO        Prompt 'expert': 215 generations
+2026-03-13 17:09:55,281  INFO        1b-Qwen3-8B-direct: acc=0.4231, auc=0.506, gamma=0.027, rho=-0.0101
+2026-03-13 17:09:55,871  INFO        1b-Qwen3-8B-cot: acc=0.4231, auc=0.4137, gamma=-0.5686, rho=-0.1754
+2026-03-13 17:09:56,503  INFO        1b-Qwen3-8B-expert: acc=0.4231, auc=0.3155, gamma=-0.5254, rho=-0.2085
+2026-03-13 17:09:56,504  INFO      
+============================================================
+Model: Qwen3-14B
+============================================================
+2026-03-13 17:09:56,504  INFO      Loading model: Qwen/Qwen3-14B (thinking=False, lora=None)
+2026-03-13 17:10:06,604  INFO        Prompt 'direct': 215 generations
+2026-03-13 17:12:02,963  INFO        Prompt 'cot': 215 generations
+2026-03-13 17:14:00,576  INFO        Prompt 'expert': 215 generations
+2026-03-13 17:15:58,027  INFO        1b-Qwen3-14B-direct: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 17:15:58,608  INFO        1b-Qwen3-14B-cot: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 17:15:59,201  INFO        1b-Qwen3-14B-expert: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 17:15:59,201  INFO      
+============================================================
+Model: Qwen3-14B-Think
+============================================================
+2026-03-13 17:15:59,201  INFO      Loading model: Qwen/Qwen3-14B (thinking=True, lora=None)
+2026-03-13 17:16:08,328  INFO        Prompt 'direct': 215 generations
+2026-03-13 17:18:05,497  INFO        Prompt 'cot': 215 generations
+2026-03-13 17:20:03,524  INFO        Prompt 'expert': 215 generations
+2026-03-13 17:22:01,435  INFO        1b-Qwen3-14B-Think-direct: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 17:22:02,120  INFO        1b-Qwen3-14B-Think-cot: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 17:22:02,837  INFO        1b-Qwen3-14B-Think-expert: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 17:22:02,837  INFO      
+============================================================
+Model: R1-7B
+============================================================
+2026-03-13 17:22:02,884  INFO      Loading model: Qwen/Qwen2.5-7B-Instruct (thinking=False, lora=/mnt/primary/QE audit/hf_cache/models--ielabgroup--Rank-R1-7B-v0.1/snapshots/9b7afcbc6b09d97a237aa0cd5f4928e0815485ab)
+2026-03-13 17:22:18,647  INFO        Prompt 'direct': 215 generations
+2026-03-13 17:22:20,767  INFO        Prompt 'cot': 215 generations
+2026-03-13 17:23:22,860  INFO        Prompt 'expert': 215 generations
+2026-03-13 17:24:01,239  INFO        1b-R1-7B-direct: acc=0.3077, auc=0.381, gamma=-0.2703, rho=-0.1446
+2026-03-13 17:24:01,821  INFO        1b-R1-7B-cot: acc=0.4231, auc=0.4048, gamma=-0.64, rho=-0.2015
+2026-03-13 17:24:02,402  INFO        1b-R1-7B-expert: acc=0.4615, auc=0.5298, gamma=0.2941, rho=0.1766
+2026-03-13 17:24:02,402  INFO      
+============================================================
+Model: R1-14B
+============================================================
+2026-03-13 17:24:02,472  INFO      Loading model: Qwen/Qwen2.5-14B-Instruct (thinking=False, lora=/mnt/primary/QE audit/hf_cache/models--ielabgroup--Rank-R1-14B-v0.1/snapshots/513ab420edca7bdefeeb0d4ee06a9002dea5a963)
+2026-03-13 17:24:16,193  INFO        Prompt 'direct': 215 generations
+2026-03-13 17:24:18,812  INFO        Prompt 'cot': 215 generations
+2026-03-13 17:26:17,115  INFO        Prompt 'expert': 215 generations
+2026-03-13 17:27:08,232  INFO        1b-R1-14B-direct: acc=0.4615, auc=0.4583, gamma=-1.0, rho=-0.3067
+2026-03-13 17:27:08,808  INFO        1b-R1-14B-cot: acc=0.3846, auc=0.4792, gamma=-0.0769, rho=0.0263
+2026-03-13 17:27:09,409  INFO        1b-R1-14B-expert: acc=0.4231, auc=0.3988, gamma=-0.2742, rho=-0.1591

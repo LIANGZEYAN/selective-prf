@@ -1,0 +1,10 @@
+2026-03-07 13:05:51,743  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/posthoc_Setwise-Llama-8B_20260307_130551.log
+2026-03-07 13:05:51,743  INFO      ============================================================
+2026-03-07 13:05:51,743  INFO      Model config: Setwise-Llama-8B
+2026-03-07 13:05:51,743  INFO        method : setwise
+2026-03-07 13:05:51,743  INFO        model  : meta-llama/Llama-3.1-8B-Instruct
+2026-03-07 13:05:51,743  INFO        lora   : None
+2026-03-07 13:05:51,743  INFO        prompt : base
+2026-03-07 13:05:51,743  INFO      ============================================================
+2026-03-07 13:05:51,770  INFO      Queries: 43 (labels=43, interleaved=43)
+2026-03-07 13:05:51,795  INFO      Ranker created in 0.0s

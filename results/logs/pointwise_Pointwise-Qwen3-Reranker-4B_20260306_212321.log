@@ -1,0 +1,6 @@
+2026-03-06 21:23:21,483  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/pointwise_Pointwise-Qwen3-Reranker-4B_20260306_212321.log
+2026-03-06 21:23:21,484  INFO      ============================================================
+2026-03-06 21:23:21,484  INFO      Pointwise config: Pointwise-Qwen3-Reranker-4B
+2026-03-06 21:23:21,484  INFO        model  : Qwen/Qwen3-Reranker-4B
+2026-03-06 21:23:21,484  INFO      ============================================================
+2026-03-06 21:23:21,518  INFO      Queries: 43

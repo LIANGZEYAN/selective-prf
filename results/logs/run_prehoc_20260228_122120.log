@@ -1,0 +1,6 @@
+2026-02-28 12:21:20,886  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/run_prehoc_20260228_122120.log
+2026-02-28 12:21:20,898  INFO      Running pre-hoc methods on 43 queries
+2026-02-28 12:21:29,470  INFO      NED — Acc=0.5000  AUC=0.5476
+2026-02-28 12:21:38,735  INFO      IDF Coverage — Acc=0.4615  AUC=0.6071
+2026-02-28 12:21:47,317  INFO      QTC — Acc=0.5385  AUC=0.4048
+2026-02-28 12:21:47,317  INFO      All pre-hoc methods complete.

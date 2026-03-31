@@ -1,0 +1,124 @@
+2026-03-13 21:49:40,306  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/approach_2a_20260313_214940.log
+2026-03-13 21:49:40,315  INFO      Loaded 43 queries, 26 labelled
+2026-03-13 21:49:40,315  INFO      
+============================================================
+Model: Qwen3-8B
+============================================================
+2026-03-13 21:49:43,168  INFO      Loading model: Qwen/Qwen3-8B (thinking=False, lora=None)
+2026-03-13 21:50:00,862  INFO        top_k=3, prompt='coverage': 215 generations
+2026-03-13 21:50:04,860  INFO        top_k=3, prompt='comparative': 215 generations
+2026-03-13 21:52:10,847  INFO        top_k=5, prompt='coverage': 215 generations
+2026-03-13 21:52:15,690  INFO        top_k=5, prompt='comparative': 215 generations
+2026-03-13 21:54:25,005  INFO        top_k=10, prompt='coverage': 215 generations
+2026-03-13 21:54:32,228  INFO        top_k=10, prompt='comparative': 215 generations
+2026-03-13 21:56:49,089  INFO        2a-Qwen3-8B-coverage-k3: acc=0.4615, auc=0.4345, gamma=-0.5, rho=-0.3838
+2026-03-13 21:56:49,665  INFO        2a-Qwen3-8B-coverage-k5: acc=0.4231, auc=0.3929, gamma=-1.0, rho=-0.5378
+2026-03-13 21:56:50,223  INFO        2a-Qwen3-8B-coverage-k10: acc=0.5, auc=0.506, gamma=0.0435, rho=-0.0398
+2026-03-13 21:56:50,897  INFO        2a-Qwen3-8B-comparative-k3: acc=0.4231, auc=0.4494, gamma=-0.4595, rho=-0.1677
+2026-03-13 21:56:51,581  INFO        2a-Qwen3-8B-comparative-k5: acc=0.4615, auc=0.5357, gamma=1.0, rho=0.2267
+2026-03-13 21:56:52,351  INFO        2a-Qwen3-8B-comparative-k10: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 21:56:52,352  INFO      
+============================================================
+Model: Qwen3-14B
+============================================================
+2026-03-13 21:56:52,352  INFO      Loading model: Qwen/Qwen3-14B (thinking=False, lora=None)
+2026-03-13 21:57:05,515  INFO        top_k=3, prompt='coverage': 215 generations
+2026-03-13 22:00:21,034  INFO        top_k=3, prompt='comparative': 215 generations
+2026-03-13 22:03:37,137  INFO        top_k=5, prompt='coverage': 215 generations
+2026-03-13 22:06:56,900  INFO        top_k=5, prompt='comparative': 215 generations
+2026-03-13 22:10:17,000  INFO        top_k=10, prompt='coverage': 215 generations
+2026-03-13 22:13:45,124  INFO        top_k=10, prompt='comparative': 215 generations
+2026-03-13 22:17:13,985  INFO        2a-Qwen3-14B-coverage-k3: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 22:17:14,577  INFO        2a-Qwen3-14B-coverage-k5: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 22:17:15,169  INFO        2a-Qwen3-14B-coverage-k10: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 22:17:15,763  INFO        2a-Qwen3-14B-comparative-k3: acc=0.3846, auc=0.4167, gamma=-1.0, rho=-0.2695
+2026-03-13 22:17:16,456  INFO        2a-Qwen3-14B-comparative-k5: acc=0.4231, auc=0.4583, gamma=-1.0, rho=-0.3334
+2026-03-13 22:17:17,218  INFO        2a-Qwen3-14B-comparative-k10: acc=0.4231, auc=0.4554, gamma=-0.4054, rho=0.0814
+2026-03-13 22:17:17,219  INFO      
+============================================================
+Model: Qwen3-14B-Think
+============================================================
+2026-03-13 22:17:17,219  INFO      Loading model: Qwen/Qwen3-14B (thinking=True, lora=None)
+2026-03-13 22:17:27,545  INFO        top_k=3, prompt='coverage': 215 generations
+2026-03-13 22:31:40,088  INFO        top_k=3, prompt='comparative': 215 generations
+2026-03-13 22:45:53,021  INFO        top_k=5, prompt='coverage': 215 generations
+2026-03-13 23:00:10,313  INFO        top_k=5, prompt='comparative': 215 generations
+2026-03-13 23:14:32,444  INFO        top_k=10, prompt='coverage': 215 generations
+2026-03-13 23:29:16,092  INFO        top_k=10, prompt='comparative': 215 generations
+2026-03-13 23:44:01,878  INFO        2a-Qwen3-14B-Think-coverage-k3: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 23:44:02,457  INFO        2a-Qwen3-14B-Think-coverage-k5: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 23:44:03,027  INFO        2a-Qwen3-14B-Think-coverage-k10: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 23:44:03,612  INFO        2a-Qwen3-14B-Think-comparative-k3: acc=0.4615, auc=0.5, gamma=0.0, rho=nan
+2026-03-13 23:44:04,192  INFO        2a-Qwen3-14B-Think-comparative-k5: acc=0.5, auc=0.5238, gamma=0.1538, rho=0.0065
+2026-03-13 23:44:04,827  INFO        2a-Qwen3-14B-Think-comparative-k10: acc=0.3846, auc=0.4167, gamma=-1.0, rho=-0.4235
+2026-03-13 23:44:04,827  INFO      
+============================================================
+Model: R1-7B
+============================================================
+2026-03-13 23:44:04,993  INFO      Loading model: Qwen/Qwen2.5-7B-Instruct (thinking=False, lora=/mnt/primary/QE audit/hf_cache/models--ielabgroup--Rank-R1-7B-v0.1/snapshots/9b7afcbc6b09d97a237aa0cd5f4928e0815485ab)
+2026-03-13 23:44:25,278  INFO        top_k=3, prompt='coverage': 215 generations
+2026-03-13 23:44:32,364  INFO        top_k=3, prompt='comparative': 215 generations
+2026-03-13 23:46:40,637  INFO        top_k=5, prompt='coverage': 215 generations
+2026-03-13 23:46:45,577  INFO        top_k=5, prompt='comparative': 215 generations
+2026-03-13 23:48:52,278  INFO        top_k=10, prompt='coverage': 215 generations
+2026-03-13 23:48:59,590  INFO        top_k=10, prompt='comparative': 215 generations
+2026-03-13 23:51:12,739  INFO        2a-R1-7B-coverage-k3: acc=0.5769, auc=0.494, gamma=-0.027, rho=-0.2296
+2026-03-13 23:51:13,340  INFO        2a-R1-7B-coverage-k5: acc=0.5385, auc=0.5089, gamma=0.0638, rho=-0.1972
+2026-03-13 23:51:13,917  INFO        2a-R1-7B-coverage-k10: acc=0.5, auc=0.4286, gamma=-1.0, rho=-0.4209
+2026-03-13 23:51:14,733  INFO        2a-R1-7B-comparative-k3: acc=0.4615, auc=0.5685, gamma=0.2371, rho=0.0967
+2026-03-13 23:51:15,565  INFO        2a-R1-7B-comparative-k5: acc=0.4615, auc=0.4167, gamma=-0.4118, rho=-0.151
+2026-03-13 23:51:16,148  INFO        2a-R1-7B-comparative-k10: acc=0.4231, auc=0.3214, gamma=-0.6522, rho=-0.4399
+2026-03-13 23:51:16,148  INFO      
+============================================================
+Model: R1-14B
+============================================================
+2026-03-13 23:51:16,359  INFO      Loading model: Qwen/Qwen2.5-14B-Instruct (thinking=False, lora=/mnt/primary/QE audit/hf_cache/models--ielabgroup--Rank-R1-14B-v0.1/snapshots/513ab420edca7bdefeeb0d4ee06a9002dea5a963)
+2026-03-13 23:51:29,158  INFO        top_k=3, prompt='coverage': 215 generations
+2026-03-13 23:51:35,791  INFO        top_k=3, prompt='comparative': 215 generations
+2026-03-13 23:55:07,924  INFO        top_k=5, prompt='coverage': 215 generations
+2026-03-13 23:55:16,006  INFO        top_k=5, prompt='comparative': 215 generations
+2026-03-13 23:58:44,232  INFO        top_k=10, prompt='coverage': 215 generations
+2026-03-13 23:58:56,699  INFO        top_k=10, prompt='comparative': 215 generations
+2026-03-14 00:02:33,825  INFO        2a-R1-14B-coverage-k3: acc=0.4615, auc=0.5119, gamma=0.0476, rho=-0.0678
+2026-03-14 00:02:34,413  INFO        2a-R1-14B-coverage-k5: acc=0.5, auc=0.4494, gamma=-0.165, rho=-0.1431
+2026-03-14 00:02:35,054  INFO        2a-R1-14B-coverage-k10: acc=0.3846, auc=0.4226, gamma=-0.2097, rho=-0.0733
+2026-03-14 00:02:35,929  INFO        2a-R1-14B-comparative-k3: acc=0.4615, auc=0.4256, gamma=-0.3333, rho=-0.1182
+2026-03-14 00:02:36,704  INFO        2a-R1-14B-comparative-k5: acc=0.5, auc=0.6071, gamma=1.0, rho=0.2993
+2026-03-14 00:02:37,296  INFO        2a-R1-14B-comparative-k10: acc=0.4231, auc=0.5238, gamma=0.1053, rho=-0.0053
+2026-03-14 00:02:37,441  INFO      Saved raw → /mnt/primary/QE audit/rankllm/results/classifier/approach_2a_raw.csv
+2026-03-14 00:02:39,542  INFO      
+============================================================
+Approach 2a Summary
+============================================================
+2026-03-14 00:02:39,544  INFO      
+                       method_name    acc    auc   gamma     rho
+           2a-Qwen3-8B-coverage-k3 0.4615 0.4345 -0.5000 -0.3838
+           2a-Qwen3-8B-coverage-k5 0.4231 0.3929 -1.0000 -0.5378
+          2a-Qwen3-8B-coverage-k10 0.5000 0.5060  0.0435 -0.0398
+        2a-Qwen3-8B-comparative-k3 0.4231 0.4494 -0.4595 -0.1677
+        2a-Qwen3-8B-comparative-k5 0.4615 0.5357  1.0000  0.2267
+       2a-Qwen3-8B-comparative-k10 0.4615 0.5000  0.0000     NaN
+          2a-Qwen3-14B-coverage-k3 0.4615 0.5000  0.0000     NaN
+          2a-Qwen3-14B-coverage-k5 0.4615 0.5000  0.0000     NaN
+         2a-Qwen3-14B-coverage-k10 0.4615 0.5000  0.0000     NaN
+       2a-Qwen3-14B-comparative-k3 0.3846 0.4167 -1.0000 -0.2695
+       2a-Qwen3-14B-comparative-k5 0.4231 0.4583 -1.0000 -0.3334
+      2a-Qwen3-14B-comparative-k10 0.4231 0.4554 -0.4054  0.0814
+    2a-Qwen3-14B-Think-coverage-k3 0.4615 0.5000  0.0000     NaN
+    2a-Qwen3-14B-Think-coverage-k5 0.4615 0.5000  0.0000     NaN
+   2a-Qwen3-14B-Think-coverage-k10 0.4615 0.5000  0.0000     NaN
+ 2a-Qwen3-14B-Think-comparative-k3 0.4615 0.5000  0.0000     NaN
+ 2a-Qwen3-14B-Think-comparative-k5 0.5000 0.5238  0.1538  0.0065
+2a-Qwen3-14B-Think-comparative-k10 0.3846 0.4167 -1.0000 -0.4235
+              2a-R1-7B-coverage-k3 0.5769 0.4940 -0.0270 -0.2296
+              2a-R1-7B-coverage-k5 0.5385 0.5089  0.0638 -0.1972
+             2a-R1-7B-coverage-k10 0.5000 0.4286 -1.0000 -0.4209
+           2a-R1-7B-comparative-k3 0.4615 0.5685  0.2371  0.0967
+           2a-R1-7B-comparative-k5 0.4615 0.4167 -0.4118 -0.1510
+          2a-R1-7B-comparative-k10 0.4231 0.3214 -0.6522 -0.4399
+             2a-R1-14B-coverage-k3 0.4615 0.5119  0.0476 -0.0678
+             2a-R1-14B-coverage-k5 0.5000 0.4494 -0.1650 -0.1431
+            2a-R1-14B-coverage-k10 0.3846 0.4226 -0.2097 -0.0733
+          2a-R1-14B-comparative-k3 0.4615 0.4256 -0.3333 -0.1182
+          2a-R1-14B-comparative-k5 0.5000 0.6071  1.0000  0.2993
+         2a-R1-14B-comparative-k10 0.4231 0.5238  0.1053 -0.0053

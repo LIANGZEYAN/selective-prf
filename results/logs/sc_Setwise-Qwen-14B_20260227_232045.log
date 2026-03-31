@@ -1,0 +1,29 @@
+2026-02-27 23:20:45,367  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Setwise-Qwen-14B_20260227_232045.log
+2026-02-27 23:20:45,367  INFO      ============================================================
+2026-02-27 23:20:45,367  INFO      Self-Consistency config: SC-Setwise-Qwen-14B
+2026-02-27 23:20:45,367  INFO        method      : setwise
+2026-02-27 23:20:45,367  INFO        model       : Qwen/Qwen2.5-14B-Instruct
+2026-02-27 23:20:45,367  INFO        lora        : None
+2026-02-27 23:20:45,367  INFO        prompt      : base
+2026-02-27 23:20:45,367  INFO        temperature : 0.7
+2026-02-27 23:20:45,367  INFO        num_runs    : 5
+2026-02-27 23:20:45,367  INFO      ============================================================
+2026-02-27 23:20:45,424  INFO      Queries: 43
+2026-02-27 23:20:45,464  INFO      Ranker created in 0.0s
+2026-02-27 23:20:45,464  INFO      --- SC run 1/5 ---
+2026-02-27 23:24:11,137  INFO        Run 1 complete
+2026-02-27 23:24:11,142  INFO      --- SC run 2/5 ---
+2026-02-27 23:27:07,921  INFO        Run 2 complete
+2026-02-27 23:27:07,924  INFO      --- SC run 3/5 ---
+2026-02-27 23:30:02,747  INFO        Run 3 complete
+2026-02-27 23:30:02,749  INFO      --- SC run 4/5 ---
+2026-02-27 23:32:49,127  INFO        Run 4 complete
+2026-02-27 23:32:49,130  INFO      --- SC run 5/5 ---
+2026-02-27 23:35:52,539  INFO        Run 5 complete
+2026-02-27 23:35:52,562  INFO      All 5 runs complete in 907.1s
+2026-02-27 23:35:52,754  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Setwise-Qwen-14B_scores.csv
+2026-02-27 23:35:55,610  INFO        SC-Setwise-Qwen-14B-DCG: TPR_H=0.5, TPR_B=0.4167, Acc=0.4615, AUC=0.8036, Gamma=0.405 (p=0.0054), Rho=0.4651 (p=0.0022)
+2026-02-27 23:35:58,674  INFO        SC-Setwise-Qwen-14B-MRR: TPR_H=0.7143, TPR_B=0.5833, Acc=0.6538, AUC=0.8036, Gamma=0.4337 (p=0.0038), Rho=0.4826 (p=0.0014)
+2026-02-27 23:36:01,593  INFO        SC-Setwise-Qwen-14B-Unweighted: TPR_H=0.7143, TPR_B=0.5833, Acc=0.6538, AUC=0.7976, Gamma=0.4863 (p=0.0008), Rho=0.4801 (p=0.0015)
+2026-02-27 23:36:01,593  INFO      === SC-Setwise-Qwen-14B COMPLETE ===
+

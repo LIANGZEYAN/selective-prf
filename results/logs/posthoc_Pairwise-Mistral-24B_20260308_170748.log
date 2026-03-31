@@ -1,0 +1,9 @@
+2026-03-08 17:07:48,505  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/posthoc_Pairwise-Mistral-24B_20260308_170748.log
+2026-03-08 17:07:48,506  INFO      ============================================================
+2026-03-08 17:07:48,506  INFO      Model config: Pairwise-Mistral-24B
+2026-03-08 17:07:48,506  INFO        method : pairwise
+2026-03-08 17:07:48,506  INFO        model  : mistralai/Mistral-Small-3.1-24B-Instruct-2503
+2026-03-08 17:07:48,506  INFO        lora   : None
+2026-03-08 17:07:48,506  INFO        prompt : None
+2026-03-08 17:07:48,506  INFO      ============================================================
+2026-03-08 17:07:48,661  INFO      Queries: 43 (labels=43, interleaved=43)

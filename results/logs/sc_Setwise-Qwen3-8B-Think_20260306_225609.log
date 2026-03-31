@@ -1,0 +1,29 @@
+2026-03-06 22:56:09,450  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Setwise-Qwen3-8B-Think_20260306_225609.log
+2026-03-06 22:56:09,450  INFO      ============================================================
+2026-03-06 22:56:09,450  INFO      Self-Consistency config: SC-Setwise-Qwen3-8B-Think
+2026-03-06 22:56:09,450  INFO        method      : setwise
+2026-03-06 22:56:09,450  INFO        model       : Qwen/Qwen3-8B
+2026-03-06 22:56:09,450  INFO        lora        : None
+2026-03-06 22:56:09,451  INFO        prompt      : r1
+2026-03-06 22:56:09,451  INFO        temperature : 0.7
+2026-03-06 22:56:09,451  INFO        num_runs    : 5
+2026-03-06 22:56:09,451  INFO      ============================================================
+2026-03-06 22:56:09,523  INFO      Queries: 43
+2026-03-06 22:56:09,535  INFO      Ranker created in 0.0s
+2026-03-06 22:56:09,535  INFO      --- SC run 1/5 ---
+2026-03-07 02:17:12,197  INFO        Run 1 complete
+2026-03-07 02:17:12,240  INFO      --- SC run 2/5 ---
+2026-03-07 05:28:42,136  INFO        Run 2 complete
+2026-03-07 05:28:42,138  INFO      --- SC run 3/5 ---
+2026-03-07 08:30:47,604  INFO        Run 3 complete
+2026-03-07 08:30:47,606  INFO      --- SC run 4/5 ---
+2026-03-07 11:36:08,673  INFO        Run 4 complete
+2026-03-07 11:36:08,674  INFO      --- SC run 5/5 ---
+2026-03-07 14:43:36,194  INFO        Run 5 complete
+2026-03-07 14:43:36,194  INFO      All 5 runs complete in 56846.7s
+2026-03-07 14:43:36,289  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Setwise-Qwen3-8B-Think_scores.csv
+2026-03-07 14:43:39,538  INFO        SC-Setwise-Qwen3-8B-Think-DCG: TPR_H=0.1429, TPR_B=0.1667, Acc=0.1538, AUC=0.756, Gamma=0.3297 (p=0.03), Rho=0.3517 (p=0.0241)
+2026-03-07 14:43:43,030  INFO        SC-Setwise-Qwen3-8B-Think-MRR: TPR_H=0.3571, TPR_B=0.5, Acc=0.4231, AUC=0.75, Gamma=0.3226 (p=0.0324), Rho=0.3309 (p=0.0346)
+2026-03-07 14:43:46,043  INFO        SC-Setwise-Qwen3-8B-Think-Majority@k: TPR_H=0.3571, TPR_B=0.6667, Acc=0.5, AUC=0.744, Gamma=0.342 (p=0.0246), Rho=0.3206 (p=0.041)
+2026-03-07 14:43:46,043  INFO      === SC-Setwise-Qwen3-8B-Think COMPLETE ===
+

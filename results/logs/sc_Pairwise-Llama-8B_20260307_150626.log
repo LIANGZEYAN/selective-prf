@@ -1,0 +1,29 @@
+2026-03-07 15:06:26,893  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Pairwise-Llama-8B_20260307_150626.log
+2026-03-07 15:06:26,893  INFO      ============================================================
+2026-03-07 15:06:26,893  INFO      Self-Consistency config: SC-Pairwise-Llama-8B
+2026-03-07 15:06:26,893  INFO        method      : pairwise
+2026-03-07 15:06:26,893  INFO        model       : meta-llama/Llama-3.1-8B-Instruct
+2026-03-07 15:06:26,893  INFO        lora        : None
+2026-03-07 15:06:26,893  INFO        prompt      : None
+2026-03-07 15:06:26,893  INFO        temperature : 0.7
+2026-03-07 15:06:26,893  INFO        num_runs    : 5
+2026-03-07 15:06:26,893  INFO      ============================================================
+2026-03-07 15:06:26,935  INFO      Queries: 43
+2026-03-07 15:06:35,376  INFO      Ranker created in 8.4s
+2026-03-07 15:06:35,376  INFO      --- SC run 1/5 ---
+2026-03-07 15:07:52,916  INFO        Run 1 complete
+2026-03-07 15:07:52,917  INFO      --- SC run 2/5 ---
+2026-03-07 15:09:10,295  INFO        Run 2 complete
+2026-03-07 15:09:10,296  INFO      --- SC run 3/5 ---
+2026-03-07 15:10:27,937  INFO        Run 3 complete
+2026-03-07 15:10:27,938  INFO      --- SC run 4/5 ---
+2026-03-07 15:11:45,573  INFO        Run 4 complete
+2026-03-07 15:11:45,574  INFO      --- SC run 5/5 ---
+2026-03-07 15:13:03,184  INFO        Run 5 complete
+2026-03-07 15:13:03,184  INFO      All 5 runs complete in 396.2s
+2026-03-07 15:13:03,210  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Pairwise-Llama-8B_scores.csv
+2026-03-07 15:13:05,575  INFO        SC-Pairwise-Llama-8B-DCG: TPR_H=0.0714, TPR_B=0.0, Acc=0.0385, AUC=0.4821, Gamma=-0.0422 (p=0.7826), Rho=0.0136 (p=0.9327)
+2026-03-07 15:13:07,975  INFO        SC-Pairwise-Llama-8B-MRR: TPR_H=0.1429, TPR_B=0.6667, Acc=0.3846, AUC=0.5089, Gamma=-0.0166 (p=0.9186), Rho=0.0359 (p=0.8234)
+2026-03-07 15:13:10,336  INFO        SC-Pairwise-Llama-8B-Majority@k: TPR_H=0.0714, TPR_B=0.5833, Acc=0.3077, AUC=0.4673, Gamma=-0.0847 (p=0.6817), Rho=-0.0115 (p=0.9432)
+2026-03-07 15:13:10,336  INFO      === SC-Pairwise-Llama-8B COMPLETE ===
+

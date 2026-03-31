@@ -1,0 +1,85 @@
+qid,a_only_clicks,b_only_clicks,both_clicks,total_clicks,discriminative_clicks,b_preference_ratio,preference,query,top5_summary,top5_docnos,top5_count,query_length,query_type,representativeness,is_extreme,prf_strength,selection_score
+1037798,3,40,55,98,43,0.9302325581395348,PRF-Benefit,who is robert gray,"[1] Score: 25.215
+    Atlantic Ocean, United States. Robert Gray, (born May 10, 1755, Tiverton, R.I.—died summer 1806, at sea near eastern U.S. coast) captain of the first U.S. ship to circumnavigate the globe and explorer...
+
+[2] Score: 23.799
+    Captain Robert Gray carries the flag around the world on his sailing vessel (around the tip of South America, to China, and beyond). He discovered a great river and named it after his boat The Columbi...
+
+[3] Score: 23.709
+    Robert Gray was the Democratic candidate for governor of Mississippi in the 2015 elections. Gray won the Democratic primary on August 4, 2015, and was defeated by incumbent Governor Phil Bryant (R) in...
+
+[4] Score: 23.174
+    John Gray (U.S. author) John Gray (born December 28, 1951) is an American relationship counselor, lecturer and author. In 1969, he began a nine-year association with Maharishi Mahesh Yogi before begin...
+
+[5] Score: 23.091
+    George Gray (born March 11, 1967 in Ballwin, Missouri) is an American Game Show Host, announcer, and comedian. He attended High School in Tucson, Arizona and graduated from the University of Arizona, ...","8760871,7822415,8760866,2360252,3914692",5,4,factoid,0.03910345073856623,False,Strong-Benefit,0.3477344035512404
+405717,2,19,68,89,21,0.9047619047619048,PRF-Benefit,is cdg airport in main paris,"[1] Score: 26.071
+    Roissy - Charles de Gaulle airport (CDG) is the main international airport for Paris, and the second busiest airport in Europe after London Heathrow. The two main terminals are Terminal 1, used by mos...
+
+[2] Score: 25.295
+    Paris Charles de Gaulle Airport (CDG) is one of the busiest passenger airports in Europe and is the larger of Paris' two airports... Charles de Gaulle Airport is 14 miles (23 kilometers) northeast of ...
+
+[3] Score: 25.138
+    - Charles De Gaulle International Airport (CDG) in Paris. CDG is the IATA code for the airport, LFPG is the ICAO code. Airlines and flights can be found on en.wikipedia.org/wiki/Charles_de_Gaulle_Inte...
+
+[4] Score: 25.054
+    Paris Paris CDG Airport Terminal 1 F. Paris Charles de Gaulle Airport is a vast airport northeast of Paris. It's big - really big - with 60 million passengers a year, and the dominant of the three Par...
+
+[5] Score: 24.684
+    There isn't all that much shopping at Paris CDG Airport - most of it is at Roissypôle, a shopping centre at the outskirts of the airport. It has the airline offices and and a Hilton hotel too. A free ...","8433854,2702419,4828118,3033900,3033904",5,6,other,0.029466237174467426,False,Strong-Benefit,0.3336912567745489
+443396,6,25,38,69,31,0.8064516129032258,PRF-Benefit,lps laws definition,"[1] Score: 26.089
+    LPS Act. LPS Act. a California law named for sponsors of the legislation (Lanterman, Petris, and Short) that provides for the protection and treatment of persons judged to be gravely disabled and thus...
+
+[2] Score: 23.522
+    (Redirected from Lanterman-Petris-Short Act) The Lanterman–Petris–Short (LPS) Act (Cal. Welf & Inst. Code, sec. 5000 et seq.) concerns the involuntary civil commitment to a mental health institution i...
+
+[3] Score: 23.055
+    The California Mental Health Act (Sections 5000 to 8000 of the Welfare and. Institutions Code), also known as the LPS Act, begins by promoting the. legislative intent: • Most important was: to end the...
+
+[4] Score: 22.842
+    Lipopolysaccharide (LPS) is the major component of the outer leaflet of the outer membrane of Gram-negative bacteria. The LPS molecule is composed of two biosynthetic entities: the lipid A-core and th...
+
+[5] Score: 22.718
+    Corporate law. A limited partnership (LP) is a form of partnership similar to a general partnership, except that where a general partnership must have at least two general partners (GPs), a limited pa...","8536118,8536123,8536122,119472,4052112",5,3,definition,0.032981782837968876,False,Strong-Benefit,0.25577335829647785
+451602,31,20,26,77,51,0.392156862745098,PRF-Hurt,medicare's definition of mechanical ventilation,"[1] Score: 23.469
+    Medical Definition of Mechanical ventilation. Mechanical ventilation: Use of a machine called a ventilator or respirator to improve the exchange of air between the lungs and the atmosphere. Last Edito...
+
+[2] Score: 22.727
+    Mechanical ventilation is the medical term for artificial ventilation where mechanical means is used to assist or replace spontaneous breathing....
+
+[3] Score: 22.481
+    Mechanical ventilation is the use of a mechanical device (machine) to inflate and deflate the lungs. Mechanical ventilation provides the force needed to deliver air to the lungs in a patient whose own...
+
+[4] Score: 22.455
+    Mechanical ventilation may be defined as the use of a mechanical device to provide. ventilator support for patients. There are 2 types of mechanical ventilation: positive and. negative pressure ventil...
+
+[5] Score: 22.424
+    Mechanical ventilation. For the use in architecture and climate control, see Ventilation (architecture). Mechanical ventilation is the medical term for artificial ventilation where mechanical means is...","5179251,8390518,8383461,3177691,5475308",5,5,definition,0.06190225084798493,False,Moderate-Hurt,0.2678981552411548
+87452,6,3,10,19,9,0.3333333333333333,PRF-Hurt,causes of military suicide,"[1] Score: 25.337
+    Combat Fatalities not the Most Common Cause of Military Deaths. Suicide was the third leading cause of Canadian military deaths after motor vehicle accidents and cancerin a newly published study of 25...
+
+[2] Score: 24.445
+    Suicide surpassed war as the military's leading cause of death. War was the leading cause of death in the military nearly every year between 2004 and 2011 until suicides became the top means of dying ...
+
+[3] Score: 24.294
+    Suicide surpassed war as the military's leading cause of death. War was the leading cause of death in the military nearly every year between 2004 and 2011 until suicides became the top means dying for...
+
+[4] Score: 24.206
+    Military and civilian fatalities. According to WHO World health report 2004, deaths from intentional injuries (including war, violence, and suicide) were estimated to be 2.8% of all deaths. In the sam...
+
+[5] Score: 24.138
+    Then, as the two stood just steps apart, Michael saluted, raised a gun to his head and pulled the trigger. Suicide Is Now the Leading Cause of Death Amongst Active-Duty Soldiers. In 2010, for the seco...","186939,8819116,8333919,8081937,8819112",5,4,other,0.04884926655296502,False,Moderate-Hurt,0.24620637328785272
+1115776,11,6,62,79,17,0.3529411764705882,PRF-Hurt,what is an aml surveillance analyst,"[1] Score: 26.364
+    AML Analysts are responsible for detecting and monitoring suspicious transactions in an effort to prevent money laundering. A typical AML Analyst resume usually describes duties such as implementing a...
+
+[2] Score: 25.790
+    The BSA / AML Analyst is responsible for monitoring and investigating customer transactions under applicable anti-money laundering and anti-terrorist financing laws....
+
+[3] Score: 24.002
+    Team Lead AML Analyst. 1  Promoted to team leader responsible for training new AML hires on complying with company’s due diligence procedures and regulatory mandates. 2  Initiated, processed, closed, ...
+
+[4] Score: 23.370
+    The BSA/AML Analyst II is responsible for assisting with anti-money laundering and compliance initiatives. Three (3) to five (5) years of BSA related experience is required. southeastapply.com...
+
+[5] Score: 23.320
+    Be the first to see new Aml Surveillance Analyst jobs My email: Also get an email with jobs recommended just for me Anti Money Laundering Analyst salaries in United States...","8106321,4314176,8106320,4314174,8106324",5,6,factoid,0.05315719910736006,False,Moderate-Hurt,0.2400864090547088

@@ -1,0 +1,29 @@
+2026-03-08 16:53:27,997  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Pairwise-Qwen3-14B_20260308_165327.log
+2026-03-08 16:53:27,997  INFO      ============================================================
+2026-03-08 16:53:27,997  INFO      Self-Consistency config: SC-Pairwise-Qwen3-14B
+2026-03-08 16:53:27,997  INFO        method      : pairwise
+2026-03-08 16:53:27,997  INFO        model       : Qwen/Qwen3-14B
+2026-03-08 16:53:27,997  INFO        lora        : None
+2026-03-08 16:53:27,997  INFO        prompt      : None
+2026-03-08 16:53:27,997  INFO        temperature : 0.7
+2026-03-08 16:53:27,998  INFO        num_runs    : 5
+2026-03-08 16:53:27,998  INFO      ============================================================
+2026-03-08 16:53:28,067  INFO      Queries: 43
+2026-03-08 16:53:37,530  INFO      Ranker created in 9.5s
+2026-03-08 16:53:37,530  INFO      --- SC run 1/5 ---
+2026-03-08 16:55:47,819  INFO        Run 1 complete
+2026-03-08 16:55:47,820  INFO      --- SC run 2/5 ---
+2026-03-08 16:57:59,035  INFO        Run 2 complete
+2026-03-08 16:57:59,035  INFO      --- SC run 3/5 ---
+2026-03-08 17:00:10,325  INFO        Run 3 complete
+2026-03-08 17:00:10,326  INFO      --- SC run 4/5 ---
+2026-03-08 17:02:21,646  INFO        Run 4 complete
+2026-03-08 17:02:21,662  INFO      --- SC run 5/5 ---
+2026-03-08 17:04:34,127  INFO        Run 5 complete
+2026-03-08 17:04:34,128  INFO      All 5 runs complete in 666.1s
+2026-03-08 17:04:34,167  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Pairwise-Qwen3-14B_scores.csv
+2026-03-08 17:04:36,803  INFO        SC-Pairwise-Qwen3-14B-DCG: TPR_H=0.0714, TPR_B=0.0, Acc=0.0385, AUC=0.4821, Gamma=-0.0422 (p=0.7826), Rho=0.0136 (p=0.9327)
+2026-03-08 17:04:39,370  INFO        SC-Pairwise-Qwen3-14B-MRR: TPR_H=0.1429, TPR_B=0.6667, Acc=0.3846, AUC=0.5089, Gamma=-0.0166 (p=0.9186), Rho=0.0359 (p=0.8234)
+2026-03-08 17:04:41,833  INFO        SC-Pairwise-Qwen3-14B-Majority@k: TPR_H=0.0714, TPR_B=0.5833, Acc=0.3077, AUC=0.4673, Gamma=-0.0847 (p=0.6817), Rho=-0.0115 (p=0.9432)
+2026-03-08 17:04:41,833  INFO      === SC-Pairwise-Qwen3-14B COMPLETE ===
+

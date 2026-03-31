@@ -1,0 +1,41 @@
+qid,query,true_b_pref_ratio,true_preference,llm_prediction,llm_confidence,raw_text,success
+104861,cost of interior concrete flooring,0.7125,PRF-Benefit,Benefit,1.0,Benefit,True
+130510,definition declaratory judgment,0.7142857142857143,PRF-Benefit,Benefit,1.0,Benefit,True
+131843,definition of a sigmet,0.9615384615384616,PRF-Benefit,Benefit,1.0,Benefit,True
+146187,difference between a mcdouble and a double cheeseburger,0.2285714285714285,PRF-Hurt,Benefit,1.0,Benefit,True
+148538,difference between rn and bsn,0.7333333333333333,PRF-Benefit,Benefit,1.0,Benefit,True
+156493,do goldfish grow,0.5277777777777778,Neutral,Benefit,1.0,Benefit,True
+1037798,who is robert gray,0.9302325581395348,PRF-Benefit,Benefit,0.7237141964146153,Hurt,True
+1063750,why did the us volunterilay enter ww1,0.2307692307692307,PRF-Hurt,Benefit,1.0,Benefit,True
+1103812,who formed the commonwealth of independent states,0.3333333333333333,PRF-Hurt,Benefit,1.0,Benefit,True
+1106007,define visceral?,0.5714285714285714,Neutral,Benefit,1.0,Benefit,True
+1110199,what is wifi vs bluetooth,0.6296296296296297,PRF-Benefit,Benefit,1.0,Benefit,True
+1112341,what is the daily life of thai people,0.1071428571428571,PRF-Hurt,Benefit,1.0,Benefit,True
+1113437,what is physical description of spruce,0.5643564356435643,Neutral,Benefit,1.0,Benefit,True
+1114646,what is famvir prescribed for,0.5686274509803921,Neutral,Benefit,1.0,Benefit,True
+1114819,what is durable medical equipment consist of,0.5,Neutral,Benefit,1.0,Benefit,True
+1115776,what is an aml surveillance analyst,0.3529411764705882,PRF-Hurt,Benefit,1.0,Benefit,True
+1117099,what is a active margin,0.4912280701754385,Neutral,Benefit,1.0,Benefit,True
+1124210,tracheids are part of _____.,0.5131578947368421,Neutral,Benefit,1.0,Benefit,True
+1129237,hydrogen is a liquid below what temperature,0.525,Neutral,Benefit,1.0,Benefit,True
+1133167,how is the weather in jamaica,0.4757281553398058,Neutral,Benefit,1.0,Benefit,True
+19335,anthropological definition of environment,0.6181818181818182,PRF-Benefit,Benefit,1.0,Benefit,True
+47923,axon terminals or synaptic knob definition,0.4375,Neutral,Benefit,1.0,Benefit,True
+87181,causes of left ventricular hypertrophy,0.4367816091954023,Neutral,Benefit,1.0,Benefit,True
+87452,causes of military suicide,0.3333333333333333,PRF-Hurt,Benefit,1.0,Benefit,True
+168216,does legionella pneumophila cause pneumonia,0.4605263157894737,Neutral,Benefit,1.0,Benefit,True
+182539,example of monotonic function,0.5,Neutral,Benefit,1.0,Benefit,True
+183378,exons definition biology,0.4946236559139785,Neutral,Benefit,1.0,Benefit,True
+207786,how are some sharks warm blooded,0.5,Neutral,Benefit,1.0,Benefit,True
+264014,how long is life cycle of flea,0.4716981132075472,Neutral,Benefit,1.0,Benefit,True
+359349,how to find the midsegment of a trapezoid,0.3818181818181818,PRF-Hurt,Benefit,1.0,Benefit,True
+405717,is cdg airport in main paris,0.9047619047619048,PRF-Benefit,Benefit,1.0,Benefit,True
+443396,lps laws definition,0.8064516129032258,PRF-Benefit,Benefit,1.0,Benefit,True
+451602,medicare's definition of mechanical ventilation,0.392156862745098,PRF-Hurt,Benefit,1.0,Benefit,True
+489204,right pelvic pain causes,0.3972602739726027,PRF-Hurt,Benefit,1.0,Benefit,True
+490595,rsa definition key,0.5287356321839081,Neutral,Benefit,1.0,Benefit,True
+527433,types of dysarthria from cerebral palsy,0.4545454545454545,Neutral,Benefit,1.0,Benefit,True
+573724,what are the social determinants of health,0.5073529411764706,Neutral,Benefit,1.0,Benefit,True
+833860,what is the most popular food in switzerland,0.5555555555555556,Neutral,Benefit,1.0,Benefit,True
+915593,what types of food can you cook sous vide,0.4137931034482758,Neutral,Benefit,1.0,Benefit,True
+962179,when was the salvation army founded,0.328125,PRF-Hurt,Benefit,1.0,Benefit,True

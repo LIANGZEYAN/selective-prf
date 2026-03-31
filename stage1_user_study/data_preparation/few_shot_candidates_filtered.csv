@@ -1,0 +1,295 @@
+qid,query,query_length,query_type,preference,b_preference_ratio,prf_strength,representativeness,is_extreme,selection_score,top5_summary,top5_docnos
+1037798,who is robert gray,4,factoid,PRF-Benefit,0.9302325581395348,Strong-Benefit,0.03910345073856623,False,0.3477344035512404,"[1] Score: 25.215
+    Atlantic Ocean, United States. Robert Gray, (born May 10, 1755, Tiverton, R.I.—died summer 1806, at sea near eastern U.S. coast) captain of the first U.S. ship to circumnavigate the globe and explorer...
+
+[2] Score: 23.799
+    Captain Robert Gray carries the flag around the world on his sailing vessel (around the tip of South America, to China, and beyond). He discovered a great river and named it after his boat The Columbi...
+
+[3] Score: 23.709
+    Robert Gray was the Democratic candidate for governor of Mississippi in the 2015 elections. Gray won the Democratic primary on August 4, 2015, and was defeated by incumbent Governor Phil Bryant (R) in...
+
+[4] Score: 23.174
+    John Gray (U.S. author) John Gray (born December 28, 1951) is an American relationship counselor, lecturer and author. In 1969, he began a nine-year association with Maharishi Mahesh Yogi before begin...
+
+[5] Score: 23.091
+    George Gray (born March 11, 1967 in Ballwin, Missouri) is an American Game Show Host, announcer, and comedian. He attended High School in Tucson, Arizona and graduated from the University of Arizona, ...","8760871,7822415,8760866,2360252,3914692"
+405717,is cdg airport in main paris,6,other,PRF-Benefit,0.9047619047619048,Strong-Benefit,0.029466237174467426,False,0.3336912567745489,"[1] Score: 26.071
+    Roissy - Charles de Gaulle airport (CDG) is the main international airport for Paris, and the second busiest airport in Europe after London Heathrow. The two main terminals are Terminal 1, used by mos...
+
+[2] Score: 25.295
+    Paris Charles de Gaulle Airport (CDG) is one of the busiest passenger airports in Europe and is the larger of Paris' two airports... Charles de Gaulle Airport is 14 miles (23 kilometers) northeast of ...
+
+[3] Score: 25.138
+    - Charles De Gaulle International Airport (CDG) in Paris. CDG is the IATA code for the airport, LFPG is the ICAO code. Airlines and flights can be found on en.wikipedia.org/wiki/Charles_de_Gaulle_Inte...
+
+[4] Score: 25.054
+    Paris Paris CDG Airport Terminal 1 F. Paris Charles de Gaulle Airport is a vast airport northeast of Paris. It's big - really big - with 60 million passengers a year, and the dominant of the three Par...
+
+[5] Score: 24.684
+    There isn't all that much shopping at Paris CDG Airport - most of it is at Roissypôle, a shopping centre at the outskirts of the airport. It has the airline offices and and a Hilton hotel too. A free ...","8433854,2702419,4828118,3033900,3033904"
+451602,medicare's definition of mechanical ventilation,5,definition,PRF-Hurt,0.392156862745098,Moderate-Hurt,0.06190225084798493,False,0.2678981552411548,"[1] Score: 23.469
+    Medical Definition of Mechanical ventilation. Mechanical ventilation: Use of a machine called a ventilator or respirator to improve the exchange of air between the lungs and the atmosphere. Last Edito...
+
+[2] Score: 22.727
+    Mechanical ventilation is the medical term for artificial ventilation where mechanical means is used to assist or replace spontaneous breathing....
+
+[3] Score: 22.481
+    Mechanical ventilation is the use of a mechanical device (machine) to inflate and deflate the lungs. Mechanical ventilation provides the force needed to deliver air to the lungs in a patient whose own...
+
+[4] Score: 22.455
+    Mechanical ventilation may be defined as the use of a mechanical device to provide. ventilator support for patients. There are 2 types of mechanical ventilation: positive and. negative pressure ventil...
+
+[5] Score: 22.424
+    Mechanical ventilation. For the use in architecture and climate control, see Ventilation (architecture). Mechanical ventilation is the medical term for artificial ventilation where mechanical means is...","5179251,8390518,8383461,3177691,5475308"
+443396,lps laws definition,3,definition,PRF-Benefit,0.8064516129032258,Strong-Benefit,0.032981782837968876,False,0.25577335829647785,"[1] Score: 26.089
+    LPS Act. LPS Act. a California law named for sponsors of the legislation (Lanterman, Petris, and Short) that provides for the protection and treatment of persons judged to be gravely disabled and thus...
+
+[2] Score: 23.522
+    (Redirected from Lanterman-Petris-Short Act) The Lanterman–Petris–Short (LPS) Act (Cal. Welf & Inst. Code, sec. 5000 et seq.) concerns the involuntary civil commitment to a mental health institution i...
+
+[3] Score: 23.055
+    The California Mental Health Act (Sections 5000 to 8000 of the Welfare and. Institutions Code), also known as the LPS Act, begins by promoting the. legislative intent: • Most important was: to end the...
+
+[4] Score: 22.842
+    Lipopolysaccharide (LPS) is the major component of the outer leaflet of the outer membrane of Gram-negative bacteria. The LPS molecule is composed of two biosynthetic entities: the lipid A-core and th...
+
+[5] Score: 22.718
+    Corporate law. A limited partnership (LP) is a form of partnership similar to a general partnership, except that where a general partnership must have at least two general partners (GPs), a limited pa...","8536118,8536123,8536122,119472,4052112"
+87452,causes of military suicide,4,other,PRF-Hurt,0.3333333333333333,Moderate-Hurt,0.04884926655296502,False,0.24620637328785272,"[1] Score: 25.337
+    Combat Fatalities not the Most Common Cause of Military Deaths. Suicide was the third leading cause of Canadian military deaths after motor vehicle accidents and cancerin a newly published study of 25...
+
+[2] Score: 24.445
+    Suicide surpassed war as the military's leading cause of death. War was the leading cause of death in the military nearly every year between 2004 and 2011 until suicides became the top means of dying ...
+
+[3] Score: 24.294
+    Suicide surpassed war as the military's leading cause of death. War was the leading cause of death in the military nearly every year between 2004 and 2011 until suicides became the top means dying for...
+
+[4] Score: 24.206
+    Military and civilian fatalities. According to WHO World health report 2004, deaths from intentional injuries (including war, violence, and suicide) were estimated to be 2.8% of all deaths. In the sam...
+
+[5] Score: 24.138
+    Then, as the two stood just steps apart, Michael saluted, raised a gun to his head and pulled the trigger. Suicide Is Now the Leading Cause of Death Amongst Active-Duty Soldiers. In 2010, for the seco...","186939,8819116,8333919,8081937,8819112"
+87181,causes of left ventricular hypertrophy,5,other,Neutral,0.4367816091954023,Neutral,0.04125603868712167,False,0.24178977179668776,"[1] Score: 26.938
+    Left ventricular hypertrophy is a thickening of the wall of the heart's main pumping chamber. This thickening may result in elevation of pressure within the heart and sometimes poor pumping action. Th...
+
+[2] Score: 26.603
+    Left ventricular hypertrophy is thought to be the leading cause of sudden cardiac death in the adult population. This is most commonly the result of longstanding high blood pressure which has caused s...
+
+[3] Score: 26.330
+    Left ventricular hypertrophy can occur when some factor makes your heart work harder than normal to pump blood to your body. Factors that can cause your heart to work harder include: High blood pressu...
+
+[4] Score: 26.325
+    Left ventricular hypertrophy (LVH) occurs when the muscle tissue in the heart’s main pumping chamber becomes enlarged. LVH is often caused by high blood pressure or other heart problems and can lead t...
+
+[5] Score: 25.319
+    Left ventricular hypertrophy can occur as an inborn disease in infants and children, due to an underlying condition known as hypertrophic cardiomyopathy. Hypertrophic cardiomyopathy or HCM is a heredi...","6484576,8565420,6521366,8534134,8683183"
+1115776,what is an aml surveillance analyst,6,factoid,PRF-Hurt,0.3529411764705882,Moderate-Hurt,0.05315719910736006,False,0.2400864090547088,"[1] Score: 26.364
+    AML Analysts are responsible for detecting and monitoring suspicious transactions in an effort to prevent money laundering. A typical AML Analyst resume usually describes duties such as implementing a...
+
+[2] Score: 25.790
+    The BSA / AML Analyst is responsible for monitoring and investigating customer transactions under applicable anti-money laundering and anti-terrorist financing laws....
+
+[3] Score: 24.002
+    Team Lead AML Analyst. 1  Promoted to team leader responsible for training new AML hires on complying with company’s due diligence procedures and regulatory mandates. 2  Initiated, processed, closed, ...
+
+[4] Score: 23.370
+    The BSA/AML Analyst II is responsible for assisting with anti-money laundering and compliance initiatives. Three (3) to five (5) years of BSA related experience is required. southeastapply.com...
+
+[5] Score: 23.320
+    Be the first to see new Aml Surveillance Analyst jobs My email: Also get an email with jobs recommended just for me Anti Money Laundering Analyst salaries in United States...","8106321,4314176,8106320,4314174,8106324"
+19335,anthropological definition of environment,4,definition,PRF-Benefit,0.6181818181818182,Moderate-Benefit,0.06190225084798493,False,0.23203362761192128,"[1] Score: 26.534
+    Definition of environment - the surroundings or conditions in which a person, animal, or plant lives or operates, the natural world, as a whole or in a partic Definition of environment - the surroundi...
+
+[2] Score: 26.396
+    Definition of environment: The sum total of all surroundings of a living organism, including natural forces and other living things, which provide conditions for development and growth as well as of d...
+
+[3] Score: 26.293
+    1 Meaning of environment. Environment means everything around to a living being. Especially the circumstances of life of people or society in their life conditions. It comprises the set of natural, so...
+
+[4] Score: 26.290
+    Definition of Environment. Environment: The sum of the total of the elements, factors and conditions in the surroundings which may have an impact on the development, action or survival of an organism ...
+
+[5] Score: 26.244
+    Definition of Environment. Environment: The sum of the total of the elements, factors and conditions in the surroundings which may have an impact on the development, action or survival of an organism ...","2304005,772234,6512137,1720395,1720389"
+1117099,what is a active margin,5,factoid,Neutral,0.4912280701754385,Neutral,0.062108513704952885,False,0.22835217741180575,"[1] Score: 26.932
+    Best Answer: An active margin is a tectonic plate boundary, a passive margin is a compositional transition within a tectonic plate. As you probably know the theory of plate tectonics posits the outer ...
+
+[2] Score: 26.244
+    An active continental margin refers to the submerged edge of a continent overriding an oceanic lithosphere at a convergent plate boundary by opposition with a passive continental margin which is the r...
+
+[3] Score: 25.470
+    An active plate margin is an actual plate boundary, where oceanic crust and continental crust crash into each other. Active plate margins are often the site of earthquakes and volcanoes. Oceanic crust...
+
+[4] Score: 25.439
+    Active continental margin: A continental margin that has a very narrow, or even nonexistent, continental shelf and a narrow and steep continental slope that ends in a deep trench instead of a continen...
+
+[5] Score: 24.877
+    An active continental margin is found on the leading edge of the continent where it is crashing into an oceanic plate. An excellent example is the west coast of South America. Active margins are commo...","6122722,8446505,3543106,8093934,8446501"
+1124210,tracheids are part of _____.,5,other,Neutral,0.5131578947368421,Neutral,0.05768494150752342,False,0.22833713449774623,"[1] Score: 24.062
+    The xylem tracheary elements consist of cells known as tracheids and vessel members, both of which are typically narrow, hollow, and elongated. Tracheids are less specialized than the vessel members a...
+
+[2] Score: 23.995
+    Tracheids and vessel members are referred to as tracheary elements. Phloem vascular tissue contains parenchyma and has two types of cells that assist in the transport of food: sieve-tube members and s...
+
+[3] Score: 23.907
+    Its major components include xylem parenchyma, xylem fibers, tracheids, and xylem vessels. Tracheids are one of the two types of tracheary elements of vascular plants. (The other being the vessel elem...
+
+[4] Score: 23.503
+    Difference Between Tracheids and Vessels In plants xylem and phloem are the complex tissues which are the components parts of conductive system. In higher plants xylem contains tracheids, vessels (tra...
+
+[5] Score: 22.999
+    Tracheids and vessel elements form tube-shaped structures that provide pathways for water and minerals to travel from the roots to the leaves. While tracheids are found in all vascular plants, vessels...","2728448,2089544,8026737,8026735,2494577"
+130510,definition declaratory judgment,3,definition,PRF-Benefit,0.7142857142857143,Strong-Benefit,0.032981782837968876,False,0.2189069988494733,"[1] Score: 27.604
+    A declaratory judgment is one which simply declares the rights of the parties, or expresser, the opinion of the court on a. question of law, without ordering anything to be done....
+
+[2] Score: 26.650
+    Declaratory judgments are judgment of a court in a civil case that declares the rights, duties, or obligations of each party in a dispute. However, a declaratory judgment does not order any action or ...
+
+[3] Score: 26.635
+    Wiktionary (0.00 / 0 votes) Rate this definition: declaratory judgment (Noun). A ruling of a court in a civil case which declares the rights, duties, or obligations of each party in a dispute, but doe...
+
+[4] Score: 26.484
+    A declaratory judgment, also called a declaration, is the legal determination of a court that resolves legal uncertainty for the litigants....
+
+[5] Score: 25.234
+    The declaratory judgment is generally considered a statutory remedy and not an equitable remedy in the United States, and is thus not subject to equitable requirements, though there are analogies that...","8612910,799647,8612903,8612909,8612904"
+1103812,who formed the commonwealth of independent states,7,factoid,PRF-Hurt,0.3333333333333333,Moderate-Hurt,0.04914480430564483,False,0.2063245883889246,"[1] Score: 25.379
+    …Belarus, and Russia formed the Commonwealth of Independent States, which was then joined by eight other former republics of the defunct Soviet Union....
+
+[2] Score: 25.330
+    commonwealth of independent states The Commonwealth of Independent States (CIS) was established on December 8, 1991, in the Belovezh Accords, which also brought an end to the Soviet Union....
+
+[3] Score: 24.761
+    Commonwealth of Independent States an alliance made up of states that had been Soviet Socialist Republics in the Soviet Union prior to its dissolution in Dec 1991. A) Events of the Cold War. B) Action...
+
+[4] Score: 24.333
+    The Commonwealth of Independent States (CIS) is the international organization, or alliance of countries that used to form the Soviet Union. On December 8 1991, leaders of Russia, Belarus, and Ukraine...
+
+[5] Score: 23.994
+    Signing of the agreement to establish the Commonwealth of Independent States (CIS), 8 December 1991. In March 1991, Mikhail Gorbachev, the president of the Soviet Union, proposed a federation by holdi...","8220086,8220089,3940091,8220085,8220087"
+47923,axon terminals or synaptic knob definition,6,definition,Neutral,0.4375,Neutral,0.032981782837968876,False,0.19819271313518758,"[1] Score: 25.369
+    Axon terminals (also called synaptic boutons) are distal terminations of the branches of an axon. An axon nerve fiber is a long, slender projection of a nerve cell, or neuron, that conducts electrical...
+
+[2] Score: 24.565
+    axon terminal = synaptic end bulb - The swollen or knob-like distal endings to the terminal branches of axons (and axon collaterals) which house the secretory components of the neuron; the site of syn...
+
+[3] Score: 24.142
+    Axon terminals refer to the axon endings that are somewhat enlarged and often club-or button-shaped. Axon terminals are that part of a nerve cell that make synaptic connections with another nerve cell...
+
+[4] Score: 24.138
+    Axons usually have thousands of terminal branches that each end as a bulbous enlargement called a synaptic knob or synaptic terminal. Synaptic knobs contain several membrane-bounded synaptic vesicles ...
+
+[5] Score: 24.117
+    Axon terminals are that part of a nerve cell that make synaptic connections with another nerve cell or with an effector cell (e.g. muscle cell or gland cell). Axon terminals contain various neurotrans...","618556,4297620,6241150,8641107,6241152"
+1133167,how is the weather in jamaica,6,factoid,Neutral,0.4757281553398058,Neutral,0.06473999558943205,False,0.19560473609985055,"[1] Score: 28.038
+    Weather. Jamaica averages about 80 degrees year-round, so climate is less a factor in booking travel than other destinations. The days are warm and the nights are cool. Rain usually falls for short pe...
+
+[2] Score: 27.956
+    The climate in Jamaica is tropical and humid with warm to hot temperatures all year round. The average temperature in Jamaica is between 80 and 90 degrees Fahrenheit. Jamaican nights are considerably ...
+
+[3] Score: 27.893
+    Temperature, rainfall, prevailing weather conditions, when to go, what to pack. In Jamaica the climate is tropical, hot all year round, with little difference between winter and summer (just a few deg...
+
+[4] Score: 27.887
+    See also the US version (°F - inches - feet) In Jamaica the climate is tropical, hot all year round, with little difference between winter and summer (just a few degrees). Even in winter, the maximum ...
+
+[5] Score: 27.850
+    Climate for Jamaica. At just 10 metres above sea level, the land temperature in Jamaica is warm throughout the entire year. You can expect temperatures to be lowest in January through February, with a...","4922619,434125,434121,3023120,7217705"
+207786,how are some sharks warm blooded,6,factoid,Neutral,0.5,Neutral,0.03491511808045751,False,0.17396604723218304,"[1] Score: 26.199
+    Most sharks are cold-blooded. Some, like the Mako and the Great white shark, are partially warmblooded (they are endotherms). These sharks can raise their temperature about the temperature of the wate...
+
+[2] Score: 25.653
+    Most sharks are cold-blooded. Some, like the Mako and the Great white shark, are partially warmblooded (they are endotherms). Cold blooded although if you've ever seen a Great White Shark hunt sea lio...
+
+[3] Score: 25.206
+    Sharks' blood gives them turbo speed. Several species of shark and tuna have something special going on inside their bodies. For a long time, scientists have known that some fish species appear warm-b...
+
+[4] Score: 24.640
+    Are White Sharks warm-blooded or cold-blooded? White sharks are part of the fish family, so they must be 'cold-blooded', right? Actually, white sharks are much more complex than you may think. An anim...
+
+[5] Score: 24.610
+    Are sharks cold-blooded or warm-blooded? Sharks have a reputation as “cold-blooded killers” and despite how negative that term is, it’s not entirely inaccurate. Sharks are by no means evil, vicious ki...","8273762,8273763,8273754,8273759,8273755"
+264014,how long is life cycle of flea,7,factoid,Neutral,0.4716981132075472,Neutral,0.06048340905857489,False,0.15551411834041107,"[1] Score: 27.766
+    The total flea life cycle can range from a couple weeks to several months, depending on environmental conditions. ADULT: The adult flea is very flat side to side. There are hair-like bristles on the f...
+
+[2] Score: 27.600
+    The life cycle of a flea can last anywhere from 20 days to an entire year. It depends on how long the flea remains in the dormant stage (eggs, larvae, pupa). Outside influences, such as weather, affec...
+
+[3] Score: 27.332
+    Fleas have four main stages in their life cycle: egg, larva, pupa, and adult. The total flea life cycle can range from a couple weeks to several months, depending on environmental conditions. The adul...
+
+[4] Score: 27.325
+    How long is the life span of a flea? 30-90 Days (Average). A flea might live a year and a half under ideal conditions. These include the right temperature, food supply, and humidity. Generally speakin...
+
+[5] Score: 27.289
+    Once the flea reaches adulthood, its primary goal is to find blood and then to reproduce. Its total life span can be as long one and one-half years in ideal conditions. Female fleas can lay 5000 or mo...","3338827,4834547,5328095,1804644,6105569"
+1129237,hydrogen is a liquid below what temperature,7,factoid,Neutral,0.525,Neutral,0.0621085137049529,False,0.15484340548198117,"[1] Score: 28.207
+    Hydrogen is a liquid below what temperature? was asked by Shelly Notetaker on May 31 2017. 426 students have viewed the answer on StudySoup. View the answer on StudySoup. Sign Up Login...
+
+[2] Score: 27.478
+    Answer to: Hydrogen is a liquid below what temperature? By signing up, you'll get thousands of step-by-step solutions to your homework questions.... for Teachers for Schools for Companies...
+
+[3] Score: 27.103
+    User: Hydrogen is a liquid below what temperature? a. 100 degrees C c. -183 degrees C b. -253 degrees C d. 0 degrees C Weegy: Hydrogen is a liquid below 253 degrees C. User: What is the boiling point ...
+
+[4] Score: 26.252
+    At STP (standard temperature and pressure) hydrogen is a gas. It cools to a liquid at -423 °F, which is only about 37 degrees above absolute zero. Eleven degrees cooler, at … -434 °F, it starts to sol...
+
+[5] Score: 26.138
+    Hydrogen can exist as a liquid under high pressure and an extremely low temperature of 20.28 kelvin (−252.87°C, −423.17 °F). Hydrogen is often stored in this way as liquid hydrogen takes up less space...","8588226,8588222,8588219,4254811,6080460"
+359349,how to find the midsegment of a trapezoid,8,factoid,PRF-Hurt,0.3818181818181818,Moderate-Hurt,0.06254390092986344,False,0.15229028764467267,"[1] Score: 26.017
+    The midsegment of a trapezoid is the segment that joins the midpoints of the nonparallel sides of a trapezoid. In the trapezoid below, the midpoints of the non-parallel sides are points S and V. The m...
+
+[2] Score: 25.614
+    A trapezoid midsegment connects the midpoints of the two congruent sides of the trapezoid, and is parallel to the pair of parallel sides. The length of the midsegment is the sum of the two bases divid...
+
+[3] Score: 25.512
+    The midsegment of a trapezoid is referred to as the median or the midline. The length of the midsegment is calculated by finding the average length of each of the parallel sides. The formula for this ...
+
+[4] Score: 25.287
+    The midpoint of the red segment pictured on the left is the point (A, 2b). The most important thing to remember is that a midpoint bisects a line (cuts a line into two equal halves). The midsegment of...
+
+[5] Score: 25.195
+    In the trapezoid below, the midpoints of the non-parallel sides are points S and V. The midsegment is the red line segment from S to V. The midsegment below can be found by. 1  calculating the lengths...","2826510,68648,68649,576628,5615181"
+490595,rsa definition key,3,definition,Neutral,0.5287356321839081,Neutral,0.04161475276411152,False,0.14814015397920782,"[1] Score: 24.663
+    RSA (Rivest–Shamir–Adleman) is one of the first public-key cryptosystems and is widely used for secure data transmission. In such a cryptosystem, the encryption key is public and it is different from ...
+
+[2] Score: 24.452
+    RSA (algorithm) RSA is an algorithm used by modern computers to encrypt and decrypt messages. It is an asymmetric cryptographic algorithm. Asymmetric means that there are two different keys. This is a...
+
+[3] Score: 24.378
+    RSA is one of the first public-key cryptosystems and is widely used for secure data transmission. In such a cryptosystem, the encryption key is public and it is different from the decryption key which...
+
+[4] Score: 24.332
+    What is an RSA key used for? RSA key is a private key based on RSA algorithm. Private Key is used for authentication and a symmetric key exchange during establishment of an SSL/TLS session. It is a pa...
+
+[5] Score: 24.302
+    RSA is one of the first practical public-key cryptosystems and is widely used for secure data transmission. In such a cryptosystem, the encryption key is public and differs from the decryption key whi...","805051,4842889,549465,4842897,5247999"
+183378,exons definition biology,3,definition,Neutral,0.4946236559139785,Neutral,0.04161475276411152,False,0.1387964387400532,"[1] Score: 27.100
+    An exon is any part of a gene that will encode a part of the final mature RNA produced by that gene after introns have been removed by RNA splicing. The term exon refers to both the DNA sequence withi...
+
+[2] Score: 26.931
+    Definition of exon. : a polynucleotide sequence in a nucleic acid that codes information for protein synthesis and that is copied and spliced together with other such sequences to form messenger RNA —...
+
+[3] Score: 26.560
+    Exon. any nucleotide sequence encoded by a gene that remains present within the final mature RNA product of that gene after introns have been removed by RNA splicing. The term exon refers to both the ...
+
+[4] Score: 25.992
+    Exons. Exons are the nucleotide sequences of genes that are expressed, and those are found at either sides of an intron. In simple terms, it could be stated that exons really hit the ground in the exp...
+
+[5] Score: 25.524
+    Exons are expressing sequences within a pre-mRNA molecule that are spliced together once introns are removed to form mature mRNA molecules that are translated into proteins. Alternative splicing allow...","7449748,7449744,1289489,4493915,3185611"
+1121402,what can contour plowing reduce,5,factoid,Insufficient-Data,,Unknown,0.04173164642582293,False,,"[1] Score: 25.374
+    In contour plowing, the land is plowed across the slopes and along the contour lines. This will also reduce soil erosion and make rainwater infiltrate into the soil more than on land plowed along the ...
+
+[2] Score: 24.955
+    Contour plowing Contour ploughing or contour farming is the farming practice of ploughing and/or planting across a slope following its elevation contour lines. These contour lines create a water break...
+
+[3] Score: 24.904
+    2016-09-28T08:13:26-04:00. Farmers can reduce soil erosion by contour plowing. The correct option among all the options that are given in the question is the second option or option B. The other choic...
+
+[4] Score: 24.675
+    Contour plowing. Contour plowing or contour farming or Contour bunding is the farming practice of plowing and/or planting across a slope following its elevation contour lines. These contour lines crea...
+
+[5] Score: 24.363
+    Both contour plowing and terrace farming are suitable for cultivating lands on sloping hills. Both are used to reduce soil erosion from tilled fields on slopes. In terrace farming, physical barriers (...","8052624,182369,8052620,5189913,8052617"

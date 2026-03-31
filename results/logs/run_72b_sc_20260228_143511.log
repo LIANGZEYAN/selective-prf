@@ -1,0 +1,36 @@
+2026-02-28 14:35:11,881  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/run_72b_sc_20260228_143511.log
+2026-02-28 14:35:12,550  INFO      Running SC-Pairwise-Qwen-72B with 43 queries, R=5, temp=0.7
+2026-02-28 14:35:12,550  INFO      --- SC-Pairwise-Qwen-72B run 1/5 ---
+2026-02-28 14:48:03,386  INFO        Run 1 complete
+2026-02-28 14:48:03,389  INFO      --- SC-Pairwise-Qwen-72B run 2/5 ---
+2026-02-28 15:00:38,579  INFO        Run 2 complete
+2026-02-28 15:00:38,580  INFO      --- SC-Pairwise-Qwen-72B run 3/5 ---
+2026-02-28 15:14:03,667  INFO        Run 3 complete
+2026-02-28 15:14:03,669  INFO      --- SC-Pairwise-Qwen-72B run 4/5 ---
+2026-02-28 15:27:42,809  INFO        Run 4 complete
+2026-02-28 15:27:42,828  INFO      --- SC-Pairwise-Qwen-72B run 5/5 ---
+2026-02-28 15:41:03,477  INFO        Run 5 complete
+2026-02-28 15:41:03,500  INFO      All 5 runs complete in 3950.9s
+2026-02-28 15:41:03,777  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Pairwise-Qwen-72B_scores.csv
+2026-02-28 15:41:06,975  INFO        SC-Pairwise-Qwen-72B-DCG: TPR_H=0.2857, TPR_B=0.5833, Acc=0.4231, AUC=0.7857, Gamma=0.3871 (p=0.0086)
+2026-02-28 15:41:10,051  INFO        SC-Pairwise-Qwen-72B-MRR: TPR_H=0.5, TPR_B=0.75, Acc=0.6154, AUC=0.7976, Gamma=0.4194 (p=0.005)
+2026-02-28 15:41:12,953  INFO        SC-Pairwise-Qwen-72B-Unweighted: TPR_H=0.6429, TPR_B=0.6667, Acc=0.6538, AUC=0.875, Gamma=0.6132 (p=0.0002)
+2026-02-28 15:41:12,953  INFO      SC-Pairwise-Qwen-72B complete.
+2026-02-28 15:41:12,962  INFO      Running SC-Setwise-Qwen-72B with 43 queries, R=5, temp=0.7
+2026-02-28 15:41:12,963  INFO      --- SC-Setwise-Qwen-72B run 1/5 ---
+2026-02-28 15:48:27,147  INFO        Run 1 complete
+2026-02-28 15:48:27,148  INFO      --- SC-Setwise-Qwen-72B run 2/5 ---
+2026-02-28 15:55:40,754  INFO        Run 2 complete
+2026-02-28 15:55:40,755  INFO      --- SC-Setwise-Qwen-72B run 3/5 ---
+2026-02-28 16:03:00,026  INFO        Run 3 complete
+2026-02-28 16:03:00,027  INFO      --- SC-Setwise-Qwen-72B run 4/5 ---
+2026-02-28 16:10:12,326  INFO        Run 4 complete
+2026-02-28 16:10:12,328  INFO      --- SC-Setwise-Qwen-72B run 5/5 ---
+2026-02-28 16:17:22,955  INFO        Run 5 complete
+2026-02-28 16:17:22,956  INFO      All 5 runs complete in 2170.0s
+2026-02-28 16:17:22,989  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Setwise-Qwen-72B_scores.csv
+2026-02-28 16:17:25,969  INFO        SC-Setwise-Qwen-72B-DCG: TPR_H=0.2857, TPR_B=0.4167, Acc=0.3462, AUC=0.744, Gamma=0.3728 (p=0.0086)
+2026-02-28 16:17:29,101  INFO        SC-Setwise-Qwen-72B-MRR: TPR_H=0.5714, TPR_B=0.6667, Acc=0.6154, AUC=0.7619, Gamma=0.4014 (p=0.0058)
+2026-02-28 16:17:31,906  INFO        SC-Setwise-Qwen-72B-Unweighted: TPR_H=0.5, TPR_B=0.6667, Acc=0.5769, AUC=0.7321, Gamma=0.4979 (p=0.0018)
+2026-02-28 16:17:31,906  INFO      SC-Setwise-Qwen-72B complete.
+2026-02-28 16:17:31,906  INFO      All 72B SC methods complete.

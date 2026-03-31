@@ -1,0 +1,174 @@
+2026-03-23 21:23:19,447  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/approach_1a_20260323_212319.log
+2026-03-23 21:23:19,451  INFO      Loaded 43 queries, 26 labelled
+2026-03-23 21:23:19,451  INFO      
+============================================================
+Zero-shot NLI: facebook/bart-large-mnli
+============================================================
+2026-03-23 21:23:22,069  INFO      Loading zero-shot pipeline: facebook/bart-large-mnli
+2026-03-23 21:23:23,492  INFO        qid=19335: benefit=0.811, hurt=0.189
+2026-03-23 21:23:23,518  INFO        qid=47923: benefit=0.689, hurt=0.311
+2026-03-23 21:23:23,542  INFO        qid=87181: benefit=0.401, hurt=0.599
+2026-03-23 21:23:23,571  INFO        qid=87452: benefit=0.482, hurt=0.518
+2026-03-23 21:23:23,600  INFO        qid=104861: benefit=0.775, hurt=0.225
+2026-03-23 21:23:23,629  INFO        qid=130510: benefit=0.679, hurt=0.321
+2026-03-23 21:23:23,658  INFO        qid=131843: benefit=0.728, hurt=0.272
+2026-03-23 21:23:23,687  INFO        qid=146187: benefit=0.857, hurt=0.143
+2026-03-23 21:23:23,716  INFO        qid=148538: benefit=0.754, hurt=0.246
+2026-03-23 21:23:23,744  INFO        qid=156493: benefit=0.904, hurt=0.096
+2026-03-23 21:23:23,773  INFO        qid=168216: benefit=0.893, hurt=0.107
+2026-03-23 21:23:23,802  INFO        qid=182539: benefit=0.655, hurt=0.345
+2026-03-23 21:23:23,830  INFO        qid=183378: benefit=0.745, hurt=0.255
+2026-03-23 21:23:23,857  INFO        qid=207786: benefit=0.904, hurt=0.096
+2026-03-23 21:23:23,879  INFO        qid=264014: benefit=0.928, hurt=0.072
+2026-03-23 21:23:23,901  INFO        qid=359349: benefit=0.920, hurt=0.080
+2026-03-23 21:23:23,923  INFO        qid=405717: benefit=0.882, hurt=0.118
+2026-03-23 21:23:23,945  INFO        qid=443396: benefit=0.579, hurt=0.421
+2026-03-23 21:23:23,968  INFO        qid=451602: benefit=0.793, hurt=0.207
+2026-03-23 21:23:23,991  INFO        qid=489204: benefit=0.559, hurt=0.441
+2026-03-23 21:23:24,014  INFO        qid=490595: benefit=0.708, hurt=0.292
+2026-03-23 21:23:24,038  INFO        qid=527433: benefit=0.803, hurt=0.197
+2026-03-23 21:23:24,062  INFO        qid=573724: benefit=0.906, hurt=0.094
+2026-03-23 21:23:24,088  INFO        qid=833860: benefit=0.928, hurt=0.072
+2026-03-23 21:23:24,113  INFO        qid=855410: benefit=0.891, hurt=0.109
+2026-03-23 21:23:24,136  INFO        qid=915593: benefit=0.922, hurt=0.078
+2026-03-23 21:23:24,161  INFO        qid=962179: benefit=0.916, hurt=0.084
+2026-03-23 21:23:24,186  INFO        qid=1037798: benefit=0.880, hurt=0.120
+2026-03-23 21:23:24,212  INFO        qid=1063750: benefit=0.733, hurt=0.267
+2026-03-23 21:23:24,235  INFO        qid=1103812: benefit=0.788, hurt=0.212
+2026-03-23 21:23:24,260  INFO        qid=1106007: benefit=0.921, hurt=0.079
+2026-03-23 21:23:24,289  INFO        qid=1110199: benefit=0.944, hurt=0.056
+2026-03-23 21:23:24,319  INFO        qid=1112341: benefit=0.910, hurt=0.090
+2026-03-23 21:23:24,347  INFO        qid=1113437: benefit=0.943, hurt=0.057
+2026-03-23 21:23:24,372  INFO        qid=1114646: benefit=0.892, hurt=0.108
+2026-03-23 21:23:24,398  INFO        qid=1114819: benefit=0.929, hurt=0.071
+2026-03-23 21:23:24,426  INFO        qid=1115776: benefit=0.909, hurt=0.091
+2026-03-23 21:23:24,456  INFO        qid=1117099: benefit=0.722, hurt=0.278
+2026-03-23 21:23:24,483  INFO        qid=1121402: benefit=0.858, hurt=0.142
+2026-03-23 21:23:24,506  INFO        qid=1121709: benefit=0.911, hurt=0.089
+2026-03-23 21:23:24,528  INFO        qid=1124210: benefit=0.786, hurt=0.214
+2026-03-23 21:23:24,556  INFO        qid=1129237: benefit=0.825, hurt=0.175
+2026-03-23 21:23:24,585  INFO        qid=1133167: benefit=0.895, hurt=0.105
+2026-03-23 21:23:25,221  INFO        ZeroShot-bart-large-mnli: acc=0.5, auc=0.5536, gamma=0.1071, rho=-0.145
+2026-03-23 21:23:25,222  INFO      
+============================================================
+Zero-shot NLI: MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli
+============================================================
+2026-03-23 21:23:25,222  INFO      Loading zero-shot pipeline: MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli
+2026-03-23 21:23:26,018  INFO        qid=19335: benefit=0.615, hurt=0.385
+2026-03-23 21:23:26,353  INFO        qid=47923: benefit=0.720, hurt=0.280
+2026-03-23 21:23:26,385  INFO        qid=87181: benefit=0.661, hurt=0.339
+2026-03-23 21:23:26,414  INFO        qid=87452: benefit=0.524, hurt=0.476
+2026-03-23 21:23:26,440  INFO        qid=104861: benefit=0.554, hurt=0.446
+2026-03-23 21:23:26,466  INFO        qid=130510: benefit=0.531, hurt=0.469
+2026-03-23 21:23:26,491  INFO        qid=131843: benefit=0.591, hurt=0.409
+2026-03-23 21:23:26,515  INFO        qid=146187: benefit=0.704, hurt=0.296
+2026-03-23 21:23:26,538  INFO        qid=148538: benefit=0.721, hurt=0.279
+2026-03-23 21:23:26,561  INFO        qid=156493: benefit=0.747, hurt=0.253
+2026-03-23 21:23:26,584  INFO        qid=168216: benefit=0.613, hurt=0.387
+2026-03-23 21:23:26,608  INFO        qid=182539: benefit=0.556, hurt=0.444
+2026-03-23 21:23:26,634  INFO        qid=183378: benefit=0.658, hurt=0.342
+2026-03-23 21:23:26,658  INFO        qid=207786: benefit=0.640, hurt=0.360
+2026-03-23 21:23:26,681  INFO        qid=264014: benefit=0.650, hurt=0.350
+2026-03-23 21:23:26,710  INFO        qid=359349: benefit=0.771, hurt=0.229
+2026-03-23 21:23:26,735  INFO        qid=405717: benefit=0.692, hurt=0.308
+2026-03-23 21:23:26,761  INFO        qid=443396: benefit=0.596, hurt=0.404
+2026-03-23 21:23:26,786  INFO        qid=451602: benefit=0.636, hurt=0.364
+2026-03-23 21:23:26,814  INFO        qid=489204: benefit=0.630, hurt=0.370
+2026-03-23 21:23:26,843  INFO        qid=490595: benefit=0.637, hurt=0.363
+2026-03-23 21:23:26,870  INFO        qid=527433: benefit=0.567, hurt=0.433
+2026-03-23 21:23:26,893  INFO        qid=573724: benefit=0.647, hurt=0.353
+2026-03-23 21:23:26,915  INFO        qid=833860: benefit=0.694, hurt=0.306
+2026-03-23 21:23:26,944  INFO        qid=855410: benefit=0.676, hurt=0.324
+2026-03-23 21:23:26,974  INFO        qid=915593: benefit=0.929, hurt=0.071
+2026-03-23 21:23:27,003  INFO        qid=962179: benefit=0.552, hurt=0.448
+2026-03-23 21:23:27,026  INFO        qid=1037798: benefit=0.634, hurt=0.366
+2026-03-23 21:23:27,050  INFO        qid=1063750: benefit=0.604, hurt=0.396
+2026-03-23 21:23:27,076  INFO        qid=1103812: benefit=0.667, hurt=0.333
+2026-03-23 21:23:27,106  INFO        qid=1106007: benefit=0.620, hurt=0.380
+2026-03-23 21:23:27,135  INFO        qid=1110199: benefit=0.666, hurt=0.334
+2026-03-23 21:23:27,160  INFO        qid=1112341: benefit=0.771, hurt=0.229
+2026-03-23 21:23:27,183  INFO        qid=1113437: benefit=0.708, hurt=0.292
+2026-03-23 21:23:27,208  INFO        qid=1114646: benefit=0.620, hurt=0.380
+2026-03-23 21:23:27,237  INFO        qid=1114819: benefit=0.661, hurt=0.339
+2026-03-23 21:23:27,266  INFO        qid=1115776: benefit=0.606, hurt=0.394
+2026-03-23 21:23:27,293  INFO        qid=1117099: benefit=0.654, hurt=0.346
+2026-03-23 21:23:27,317  INFO        qid=1121402: benefit=0.451, hurt=0.549
+2026-03-23 21:23:27,347  INFO        qid=1121709: benefit=0.618, hurt=0.382
+2026-03-23 21:23:27,386  INFO        qid=1124210: benefit=0.738, hurt=0.262
+2026-03-23 21:23:27,412  INFO        qid=1129237: benefit=0.553, hurt=0.447
+2026-03-23 21:23:27,439  INFO        qid=1133167: benefit=0.781, hurt=0.219
+2026-03-23 21:23:28,116  INFO        ZeroShot-DeBERTa-v3-base-mnli-fever-anli: acc=0.3462, auc=0.3631, gamma=-0.2738, rho=-0.1857
+2026-03-23 21:23:28,116  INFO      
+============================================================
+Embedding features: MiniLM (all-MiniLM-L6-v2)
+============================================================
+2026-03-23 21:23:28,434  INFO      Loading sentence-transformer: all-MiniLM-L6-v2
+2026-03-23 21:23:31,206  INFO        Emb-emb_norm: acc=0.5769, auc=0.5833, gamma=0.3333, rho=0.0571
+2026-03-23 21:23:31,804  INFO        Emb-term_sim_mean: acc=0.6923, auc=0.7738, gamma=0.5476, rho=0.6049
+2026-03-23 21:23:32,404  INFO        Emb-term_sim_std: acc=0.1923, auc=0.3155, gamma=-0.369, rho=-0.1463
+2026-03-23 21:23:33,017  INFO        Emb-n_terms: acc=0.7308, auc=0.8214, gamma=0.75, rho=0.57
+2026-03-23 21:23:33,017  INFO      
+============================================================
+Embedding features: BGE (BAAI/bge-large-en-v1.5)
+============================================================
+2026-03-23 21:23:33,017  INFO      Loading sentence-transformer: BAAI/bge-large-en-v1.5
+2026-03-23 21:23:36,598  INFO        Emb-BGE-emb_norm: acc=0.6538, auc=0.6726, gamma=0.7838, rho=0.3238
+2026-03-23 21:23:37,192  INFO        Emb-BGE-term_sim_mean: acc=0.6923, auc=0.7321, gamma=0.4643, rho=0.3806
+2026-03-23 21:23:37,780  INFO        Emb-BGE-term_sim_std: acc=0.2308, auc=0.2679, gamma=-0.4643, rho=-0.2633
+2026-03-23 21:23:37,780  INFO      
+============================================================
+Embedding features: GTE (thenlper/gte-large)
+============================================================
+2026-03-23 21:23:37,780  INFO      Loading sentence-transformer: thenlper/gte-large
+2026-03-23 21:23:41,510  INFO        Emb-GTE-emb_norm: acc=0.5, auc=0.5119, gamma=0.0526, rho=-0.0054
+2026-03-23 21:23:42,106  INFO        Emb-GTE-term_sim_mean: acc=0.6538, auc=0.7976, gamma=0.5952, rho=0.5591
+2026-03-23 21:23:42,690  INFO        Emb-GTE-term_sim_std: acc=0.1538, auc=0.131, gamma=-0.7381, rho=-0.4185
+2026-03-23 21:23:42,690  INFO      
+============================================================
+Embedding features: ColBERT (colbert-ir/colbertv2.0)
+============================================================
+2026-03-23 21:23:42,690  INFO      Loading ColBERT model: colbert-ir/colbertv2.0
+2026-03-23 21:23:44,231  INFO        Emb-ColBERT-emb_norm: acc=0.4615, auc=0.631, gamma=0.2619, rho=0.2684
+2026-03-23 21:23:44,801  INFO        Emb-ColBERT-term_sim_mean: acc=0.2692, auc=0.3452, gamma=-0.3095, rho=-0.4394
+2026-03-23 21:23:45,402  INFO        Emb-ColBERT-term_sim_std: acc=0.5, auc=0.6012, gamma=0.2024, rho=0.1655
+2026-03-23 21:23:45,402  INFO      
+============================================================
+NER features: sm (en_core_web_sm)
+============================================================
+2026-03-23 21:23:45,916  INFO      Loading spaCy en_core_web_sm
+2026-03-23 21:23:47,007  INFO        NER-n_entities: acc=0.5385, auc=0.5238, gamma=0.1111, rho=0.1445
+2026-03-23 21:23:47,603  INFO        NER-entity_ratio: acc=0.5769, auc=0.5476, gamma=0.186, rho=0.2247
+2026-03-23 21:23:47,603  INFO      
+============================================================
+NER features: trf (en_core_web_trf)
+============================================================
+2026-03-23 21:23:47,603  INFO      Loading spaCy en_core_web_trf
+2026-03-23 21:23:51,137  INFO        NER-trf-n_entities: acc=0.5769, auc=0.4792, gamma=-0.0693, rho=-0.0895
+2026-03-23 21:23:51,727  INFO        NER-trf-entity_ratio: acc=0.6154, auc=0.5298, gamma=0.0847, rho=0.0374
+2026-03-23 21:23:51,761  INFO      Saved features → /mnt/primary/QE audit/rankllm/results/classifier/approach_1a_features.csv
+2026-03-23 21:23:51,766  INFO      Saved results → /mnt/primary/QE audit/rankllm/results/classifier/approach_1a_results.csv
+2026-03-23 21:23:51,901  INFO      
+============================================================
+Approach 1a Summary
+============================================================
+2026-03-23 21:23:51,903  INFO      
+                             method_name    acc    auc   gamma     rho
+                ZeroShot-bart-large-mnli 0.5000 0.5536  0.1071 -0.1450
+ZeroShot-DeBERTa-v3-base-mnli-fever-anli 0.3462 0.3631 -0.2738 -0.1857
+                            Emb-emb_norm 0.5769 0.5833  0.3333  0.0571
+                       Emb-term_sim_mean 0.6923 0.7738  0.5476  0.6049
+                        Emb-term_sim_std 0.1923 0.3155 -0.3690 -0.1463
+                             Emb-n_terms 0.7308 0.8214  0.7500  0.5700
+                        Emb-BGE-emb_norm 0.6538 0.6726  0.7838  0.3238
+                   Emb-BGE-term_sim_mean 0.6923 0.7321  0.4643  0.3806
+                    Emb-BGE-term_sim_std 0.2308 0.2679 -0.4643 -0.2633
+                        Emb-GTE-emb_norm 0.5000 0.5119  0.0526 -0.0054
+                   Emb-GTE-term_sim_mean 0.6538 0.7976  0.5952  0.5591
+                    Emb-GTE-term_sim_std 0.1538 0.1310 -0.7381 -0.4185
+                    Emb-ColBERT-emb_norm 0.4615 0.6310  0.2619  0.2684
+               Emb-ColBERT-term_sim_mean 0.2692 0.3452 -0.3095 -0.4394
+                Emb-ColBERT-term_sim_std 0.5000 0.6012  0.2024  0.1655
+                          NER-n_entities 0.5385 0.5238  0.1111  0.1445
+                        NER-entity_ratio 0.5769 0.5476  0.1860  0.2247
+                      NER-trf-n_entities 0.5769 0.4792 -0.0693 -0.0895
+                    NER-trf-entity_ratio 0.6154 0.5298  0.0847  0.0374

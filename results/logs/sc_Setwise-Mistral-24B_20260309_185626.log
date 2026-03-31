@@ -1,0 +1,30 @@
+2026-03-09 18:56:28,171  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Setwise-Mistral-24B_20260309_185626.log
+2026-03-09 18:56:28,171  INFO      ============================================================
+2026-03-09 18:56:28,171  INFO      Self-Consistency config: SC-Setwise-Mistral-24B
+2026-03-09 18:56:28,171  INFO        method      : setwise
+2026-03-09 18:56:28,171  INFO        model       : mistralai/Mistral-Small-3.1-24B-Instruct-2503
+2026-03-09 18:56:28,171  INFO        lora        : None
+2026-03-09 18:56:28,172  INFO        prompt      : base
+2026-03-09 18:56:28,172  INFO        temperature : 0.7
+2026-03-09 18:56:28,172  INFO        num_runs    : 5
+2026-03-09 18:56:28,172  INFO      ============================================================
+2026-03-09 18:56:28,217  INFO      Queries: 43
+2026-03-09 18:56:28,263  INFO      Ranker created in 0.0s
+2026-03-09 18:56:28,263  INFO      --- SC run 1/5 ---
+2026-03-09 19:00:29,691  INFO        Run 1 complete
+2026-03-09 19:00:29,775  INFO      --- SC run 2/5 ---
+2026-03-09 19:03:30,297  INFO        Run 2 complete
+2026-03-09 19:03:30,299  INFO      --- SC run 3/5 ---
+2026-03-09 19:06:20,243  INFO        Run 3 complete
+2026-03-09 19:06:20,248  INFO      --- SC run 4/5 ---
+2026-03-09 19:09:20,708  INFO        Run 4 complete
+2026-03-09 19:09:20,710  INFO      --- SC run 5/5 ---
+2026-03-09 19:12:09,102  INFO        Run 5 complete
+2026-03-09 19:12:09,102  INFO      All 5 runs complete in 940.9s
+2026-03-09 19:12:09,159  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Setwise-Mistral-24B_scores.csv
+2026-03-09 19:12:09,210  INFO      Saved SC reasoning traces → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Setwise-Mistral-24B_reasoning.csv
+2026-03-09 19:12:10,731  INFO        SC-Setwise-Mistral-24B-DCG: TPR_H=0.5714, TPR_B=0.4167, Acc=0.5, AUC=0.8631, Gamma=0.5125 (p=0.0008), Rho=0.5324 (p=0.0003)
+2026-03-09 19:12:12,461  INFO        SC-Setwise-Mistral-24B-MRR: TPR_H=0.6429, TPR_B=0.6667, Acc=0.6538, AUC=0.869, Gamma=0.5305 (p=0.0008), Rho=0.5499 (p=0.0002)
+2026-03-09 19:12:14,021  INFO        SC-Setwise-Mistral-24B-Majority@k: TPR_H=0.8571, TPR_B=0.6667, Acc=0.7692, AUC=0.8452, Gamma=0.5564 (p=0.0002), Rho=0.562 (p=0.0001)
+2026-03-09 19:12:14,021  INFO      === SC-Setwise-Mistral-24B COMPLETE ===
+

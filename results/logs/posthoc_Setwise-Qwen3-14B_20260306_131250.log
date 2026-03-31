@@ -1,0 +1,10 @@
+2026-03-06 13:12:50,909  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/posthoc_Setwise-Qwen3-14B_20260306_131250.log
+2026-03-06 13:12:50,909  INFO      ============================================================
+2026-03-06 13:12:50,909  INFO      Model config: Setwise-Qwen3-14B
+2026-03-06 13:12:50,909  INFO        method : setwise
+2026-03-06 13:12:50,909  INFO        model  : Qwen/Qwen3-14B
+2026-03-06 13:12:50,909  INFO        lora   : None
+2026-03-06 13:12:50,909  INFO        prompt : base
+2026-03-06 13:12:50,909  INFO      ============================================================
+2026-03-06 13:12:50,967  INFO      Queries: 43 (labels=43, interleaved=43)
+2026-03-06 13:12:50,972  INFO      Ranker created in 0.0s

@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data files (download separately)
+df_colbert_deduped.csv
+df_colbert_prf_deduped.csv
+*.pkl
+*.sql
+
+# Models and indices
+hf_cache/
+huggingface_cache/
+indices/
+*.safetensors
+*.bin
+*.pt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+*.env

@@ -1,0 +1,29 @@
+2026-03-07 15:13:12,145  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Setwise-Llama-8B_20260307_151312.log
+2026-03-07 15:13:12,145  INFO      ============================================================
+2026-03-07 15:13:12,145  INFO      Self-Consistency config: SC-Setwise-Llama-8B
+2026-03-07 15:13:12,146  INFO        method      : setwise
+2026-03-07 15:13:12,146  INFO        model       : meta-llama/Llama-3.1-8B-Instruct
+2026-03-07 15:13:12,146  INFO        lora        : None
+2026-03-07 15:13:12,146  INFO        prompt      : base
+2026-03-07 15:13:12,146  INFO        temperature : 0.7
+2026-03-07 15:13:12,146  INFO        num_runs    : 5
+2026-03-07 15:13:12,146  INFO      ============================================================
+2026-03-07 15:13:12,171  INFO      Queries: 43
+2026-03-07 15:13:12,190  INFO      Ranker created in 0.0s
+2026-03-07 15:13:12,190  INFO      --- SC run 1/5 ---
+2026-03-07 15:15:18,947  INFO        Run 1 complete
+2026-03-07 15:15:18,949  INFO      --- SC run 2/5 ---
+2026-03-07 15:16:57,112  INFO        Run 2 complete
+2026-03-07 15:16:57,113  INFO      --- SC run 3/5 ---
+2026-03-07 15:18:33,767  INFO        Run 3 complete
+2026-03-07 15:18:33,769  INFO      --- SC run 4/5 ---
+2026-03-07 15:20:15,273  INFO        Run 4 complete
+2026-03-07 15:20:15,274  INFO      --- SC run 5/5 ---
+2026-03-07 15:21:55,399  INFO        Run 5 complete
+2026-03-07 15:21:55,401  INFO      All 5 runs complete in 523.2s
+2026-03-07 15:21:55,410  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Setwise-Llama-8B_scores.csv
+2026-03-07 15:21:57,808  INFO        SC-Setwise-Llama-8B-DCG: TPR_H=0.3571, TPR_B=0.5833, Acc=0.4615, AUC=0.7917, Gamma=0.4122 (p=0.0048), Rho=0.4177 (p=0.0066)
+2026-03-07 15:22:00,407  INFO        SC-Setwise-Llama-8B-MRR: TPR_H=0.5, TPR_B=0.6667, Acc=0.5769, AUC=0.7976, Gamma=0.4229 (p=0.0036), Rho=0.431 (p=0.0049)
+2026-03-07 15:22:02,805  INFO        SC-Setwise-Llama-8B-Majority@k: TPR_H=0.6429, TPR_B=0.6667, Acc=0.6538, AUC=0.8065, Gamma=0.4873 (p=0.0018), Rho=0.4669 (p=0.0021)
+2026-03-07 15:22:02,805  INFO      === SC-Setwise-Llama-8B COMPLETE ===
+

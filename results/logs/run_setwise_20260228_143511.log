@@ -1,0 +1,3 @@
+2026-02-28 14:35:11,891  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/run_setwise_20260228_143511.log
+2026-02-28 14:35:11,906  INFO      Running Rank-R1 setwise reranking for 4 models
+2026-02-28 14:35:11,936  INFO      Loading Rank-R1 model: 7b (ielabgroup/Rank-R1-7B-v0.1)

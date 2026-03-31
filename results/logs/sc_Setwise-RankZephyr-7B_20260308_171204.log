@@ -1,0 +1,13 @@
+2026-03-08 17:12:04,634  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Setwise-RankZephyr-7B_20260308_171204.log
+2026-03-08 17:12:04,634  INFO      ============================================================
+2026-03-08 17:12:04,634  INFO      Self-Consistency config: SC-Setwise-RankZephyr-7B
+2026-03-08 17:12:04,634  INFO        method      : setwise
+2026-03-08 17:12:04,634  INFO        model       : castorini/rank_zephyr_7b_v1_full
+2026-03-08 17:12:04,634  INFO        lora        : None
+2026-03-08 17:12:04,634  INFO        prompt      : base
+2026-03-08 17:12:04,634  INFO        temperature : 0.7
+2026-03-08 17:12:04,634  INFO        num_runs    : 5
+2026-03-08 17:12:04,634  INFO      ============================================================
+2026-03-08 17:12:04,688  INFO      Queries: 43
+2026-03-08 17:12:04,703  INFO      Ranker created in 0.0s
+2026-03-08 17:12:04,703  INFO      --- SC run 1/5 ---

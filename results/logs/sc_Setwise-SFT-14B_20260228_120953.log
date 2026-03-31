@@ -1,0 +1,29 @@
+2026-02-28 12:09:53,089  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Setwise-SFT-14B_20260228_120953.log
+2026-02-28 12:09:53,090  INFO      ============================================================
+2026-02-28 12:09:53,090  INFO      Self-Consistency config: SC-Setwise-SFT-14B
+2026-02-28 12:09:53,090  INFO        method      : setwise
+2026-02-28 12:09:53,090  INFO        model       : Qwen/Qwen2.5-14B-Instruct
+2026-02-28 12:09:53,090  INFO        lora        : ielabgroup/Setwise-SFT-14B-v0.1
+2026-02-28 12:09:53,090  INFO        prompt      : base
+2026-02-28 12:09:53,090  INFO        temperature : 0.7
+2026-02-28 12:09:53,090  INFO        num_runs    : 5
+2026-02-28 12:09:53,090  INFO      ============================================================
+2026-02-28 12:09:53,160  INFO      Queries: 43
+2026-02-28 12:09:53,170  INFO      Ranker created in 0.0s
+2026-02-28 12:09:53,170  INFO      --- SC run 1/5 ---
+2026-02-28 12:15:12,100  INFO        Run 1 complete
+2026-02-28 12:15:12,101  INFO      --- SC run 2/5 ---
+2026-02-28 12:19:55,605  INFO        Run 2 complete
+2026-02-28 12:19:55,606  INFO      --- SC run 3/5 ---
+2026-02-28 12:24:38,832  INFO        Run 3 complete
+2026-02-28 12:24:38,853  INFO      --- SC run 4/5 ---
+2026-02-28 12:29:21,172  INFO        Run 4 complete
+2026-02-28 12:29:21,174  INFO      --- SC run 5/5 ---
+2026-02-28 12:34:06,536  INFO        Run 5 complete
+2026-02-28 12:34:06,538  INFO      All 5 runs complete in 1453.4s
+2026-02-28 12:34:06,553  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Setwise-SFT-14B_scores.csv
+2026-02-28 12:34:09,524  INFO        SC-Setwise-SFT-14B-DCG: TPR_H=0.6429, TPR_B=0.3333, Acc=0.5, AUC=0.8155, Gamma=0.4624 (p=0.0024), Rho=0.453 (p=0.0029)
+2026-02-28 12:34:12,453  INFO        SC-Setwise-SFT-14B-MRR: TPR_H=0.7143, TPR_B=0.5, Acc=0.6154, AUC=0.8155, Gamma=0.4875 (p=0.001), Rho=0.4797 (p=0.0015)
+2026-02-28 12:34:15,385  INFO        SC-Setwise-SFT-14B-Unweighted: TPR_H=0.8571, TPR_B=0.6667, Acc=0.7692, AUC=0.8155, Gamma=0.5365 (p=0.0004), Rho=0.4913 (p=0.0011)
+2026-02-28 12:34:15,385  INFO      === SC-Setwise-SFT-14B COMPLETE ===
+

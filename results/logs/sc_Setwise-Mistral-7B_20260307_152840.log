@@ -1,0 +1,29 @@
+2026-03-07 15:28:40,900  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Setwise-Mistral-7B_20260307_152840.log
+2026-03-07 15:28:40,901  INFO      ============================================================
+2026-03-07 15:28:40,901  INFO      Self-Consistency config: SC-Setwise-Mistral-7B
+2026-03-07 15:28:40,901  INFO        method      : setwise
+2026-03-07 15:28:40,901  INFO        model       : mistralai/Mistral-7B-Instruct-v0.3
+2026-03-07 15:28:40,901  INFO        lora        : None
+2026-03-07 15:28:40,901  INFO        prompt      : base
+2026-03-07 15:28:40,901  INFO        temperature : 0.7
+2026-03-07 15:28:40,901  INFO        num_runs    : 5
+2026-03-07 15:28:40,901  INFO      ============================================================
+2026-03-07 15:28:40,952  INFO      Queries: 43
+2026-03-07 15:28:40,958  INFO      Ranker created in 0.0s
+2026-03-07 15:28:40,958  INFO      --- SC run 1/5 ---
+2026-03-07 15:31:29,343  INFO        Run 1 complete
+2026-03-07 15:31:29,346  INFO      --- SC run 2/5 ---
+2026-03-07 15:34:00,931  INFO        Run 2 complete
+2026-03-07 15:34:00,931  INFO      --- SC run 3/5 ---
+2026-03-07 15:36:23,617  INFO        Run 3 complete
+2026-03-07 15:36:23,619  INFO      --- SC run 4/5 ---
+2026-03-07 15:38:41,033  INFO        Run 4 complete
+2026-03-07 15:38:41,034  INFO      --- SC run 5/5 ---
+2026-03-07 15:41:25,677  INFO        Run 5 complete
+2026-03-07 15:41:25,679  INFO      All 5 runs complete in 764.7s
+2026-03-07 15:41:25,708  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Setwise-Mistral-7B_scores.csv
+2026-03-07 15:41:28,379  INFO        SC-Setwise-Mistral-7B-DCG: TPR_H=0.3571, TPR_B=0.25, Acc=0.3077, AUC=0.881, Gamma=0.5269 (p=0.0002), Rho=0.5438 (p=0.0002)
+2026-03-07 15:41:30,847  INFO        SC-Setwise-Mistral-7B-MRR: TPR_H=0.5, TPR_B=0.5, Acc=0.5, AUC=0.8988, Gamma=0.5448 (p=0.0002), Rho=0.5665 (p=0.0001)
+2026-03-07 15:41:33,222  INFO        SC-Setwise-Mistral-7B-Majority@k: TPR_H=0.6429, TPR_B=0.8333, Acc=0.7308, AUC=0.8601, Gamma=0.5642 (p=0.0002), Rho=0.6017 (p=0.0)
+2026-03-07 15:41:33,222  INFO      === SC-Setwise-Mistral-7B COMPLETE ===
+

@@ -1,0 +1,78 @@
+2026-03-23 21:15:41,118  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/approach_2d_20260323_211541.log
+2026-03-23 21:15:41,121  INFO      Loaded 43 queries, 26 labelled
+2026-03-23 21:15:41,121  INFO      Computing ColBERT score features...
+2026-03-23 21:15:47,765  INFO      Scoring with Qwen3-Reranker-8B...
+2026-03-23 21:15:48,470  INFO      Loading Qwen3-Reranker-8B...
+2026-03-23 21:21:35,929  INFO        Scored 10/43 queries
+2026-03-23 21:21:42,952  INFO        Scored 20/43 queries
+2026-03-23 21:21:47,143  INFO        Scored 30/43 queries
+2026-03-23 21:21:51,048  INFO        Scored 40/43 queries
+2026-03-23 21:21:52,343  INFO        Total comparisons: 430, tokens: 82310
+2026-03-23 21:21:53,469  INFO      Scoring with ms-marco-MiniLM-L-12-v2...
+2026-03-23 21:21:53,628  INFO      Loading cross-encoder: cross-encoder/ms-marco-MiniLM-L-12-v2
+2026-03-23 21:22:08,018  INFO        Scored 10/43 queries
+2026-03-23 21:22:08,544  INFO        Scored 20/43 queries
+2026-03-23 21:22:08,872  INFO        Scored 30/43 queries
+2026-03-23 21:22:09,178  INFO        Scored 40/43 queries
+2026-03-23 21:22:09,709  INFO      Saved features → /mnt/primary/QE audit/rankllm/results/classifier/approach_2d_features.csv
+2026-03-23 21:22:09,709  INFO      Feature columns: ['qid', 'colbert_score_mean', 'colbert_score_std', 'colbert_score_max', 'colbert_score_min', 'colbert_score_gap_1_2', 'colbert_score_gap_1_k', 'colbert_score_entropy', 'colbert_top3_vs_rest', 'colbert_score_slope', 'reranker_score_mean', 'reranker_score_std', 'reranker_score_max', 'reranker_score_min', 'reranker_score_gap_1_2', 'reranker_score_gap_1_k', 'reranker_score_entropy', 'reranker_top3_vs_rest', 'reranker_score_slope', 'msmarco_ce_score_mean', 'msmarco_ce_score_std', 'msmarco_ce_score_max', 'msmarco_ce_score_min', 'msmarco_ce_score_gap_1_2', 'msmarco_ce_score_gap_1_k', 'msmarco_ce_score_entropy', 'msmarco_ce_top3_vs_rest', 'msmarco_ce_score_slope']
+2026-03-23 21:22:11,032  INFO        colbert_score_mean: AUC=0.5893, gamma=0.1786, acc=0.4615, dir=higher→Benefit
+2026-03-23 21:22:12,300  INFO        colbert_score_std: AUC=0.5238, gamma=0.0476, acc=0.3846, dir=higher→Hurt
+2026-03-23 21:22:13,578  INFO        colbert_score_max: AUC=0.5774, gamma=0.1548, acc=0.4615, dir=higher→Benefit
+2026-03-23 21:22:14,805  INFO        colbert_score_min: AUC=0.5774, gamma=0.1548, acc=0.3846, dir=higher→Benefit
+2026-03-23 21:22:16,019  INFO        colbert_score_gap_1_2: AUC=0.5774, gamma=0.1548, acc=0.6154, dir=higher→Benefit
+2026-03-23 21:22:17,368  INFO        colbert_score_gap_1_k: AUC=0.506, gamma=0.0119, acc=0.4615, dir=higher→Benefit
+2026-03-23 21:22:18,742  INFO        colbert_score_entropy: AUC=0.5417, gamma=0.0833, acc=0.4615, dir=higher→Benefit
+2026-03-23 21:22:19,917  INFO        colbert_top3_vs_rest: AUC=0.5298, gamma=0.0595, acc=0.4615, dir=higher→Hurt
+2026-03-23 21:22:21,137  INFO        colbert_score_slope: AUC=0.5476, gamma=0.0952, acc=0.4615, dir=higher→Benefit
+2026-03-23 21:22:22,368  INFO        reranker_score_mean: AUC=0.5714, gamma=0.1429, acc=0.4615, dir=higher→Hurt
+2026-03-23 21:22:23,618  INFO        reranker_score_std: AUC=0.5774, gamma=0.1548, acc=0.5, dir=higher→Benefit
+2026-03-23 21:22:24,823  INFO        reranker_score_max: AUC=0.5655, gamma=0.1325, acc=0.5, dir=higher→Hurt
+2026-03-23 21:22:26,002  INFO        reranker_score_min: AUC=0.625, gamma=0.25, acc=0.5, dir=higher→Hurt
+2026-03-23 21:22:27,211  INFO        reranker_score_gap_1_2: AUC=0.6101, gamma=0.2216, acc=0.5, dir=higher→Hurt
+2026-03-23 21:22:28,392  INFO        reranker_score_gap_1_k: AUC=0.5179, gamma=0.0357, acc=0.4615, dir=higher→Hurt
+2026-03-23 21:22:29,723  INFO        reranker_score_entropy: AUC=0.6012, gamma=0.2024, acc=0.4231, dir=higher→Benefit
+2026-03-23 21:22:30,907  INFO        reranker_top3_vs_rest: AUC=0.5595, gamma=0.119, acc=0.5, dir=higher→Benefit
+2026-03-23 21:22:32,402  INFO        reranker_score_slope: AUC=0.5119, gamma=0.0238, acc=0.4231, dir=higher→Benefit
+2026-03-23 21:22:33,720  INFO        msmarco_ce_score_mean: AUC=0.6071, gamma=0.2143, acc=0.5, dir=higher→Benefit
+2026-03-23 21:22:34,918  INFO        msmarco_ce_score_std: AUC=0.5833, gamma=0.1667, acc=0.5, dir=higher→Hurt
+2026-03-23 21:22:36,352  INFO        msmarco_ce_score_max: AUC=0.6071, gamma=0.2143, acc=0.5385, dir=higher→Benefit
+2026-03-23 21:22:38,140  INFO        msmarco_ce_score_min: AUC=0.6012, gamma=0.2024, acc=0.5769, dir=higher→Benefit
+2026-03-23 21:22:39,448  INFO        msmarco_ce_score_gap_1_2: AUC=0.5476, gamma=0.0952, acc=0.4231, dir=higher→Hurt
+2026-03-23 21:22:40,624  INFO        msmarco_ce_score_gap_1_k: AUC=0.5774, gamma=0.1548, acc=0.4615, dir=higher→Hurt
+2026-03-23 21:22:41,842  INFO        msmarco_ce_score_entropy: AUC=0.5536, gamma=0.1071, acc=0.5385, dir=higher→Hurt
+2026-03-23 21:22:43,023  INFO        msmarco_ce_top3_vs_rest: AUC=0.625, gamma=0.25, acc=0.4231, dir=higher→Hurt
+2026-03-23 21:22:44,221  INFO        msmarco_ce_score_slope: AUC=0.6905, gamma=0.381, acc=0.5769, dir=higher→Benefit
+2026-03-23 21:22:44,662  INFO      
+============================================================
+Approach 2d Summary (sorted by AUC)
+============================================================
+2026-03-23 21:22:44,666  INFO      
+                   method_name      direction  tpr_hurt  tpr_benefit    acc    auc  gamma     rho
+  2d-msmarco_ce_score_slope(+) higher→Benefit    0.4286       0.7500 0.5769 0.6905 0.3810  0.4302
+      2d-reranker_score_min(-)    higher→Hurt    0.3571       0.6667 0.5000 0.6250 0.2500  0.0933
+ 2d-msmarco_ce_top3_vs_rest(-)    higher→Hurt    0.1429       0.7500 0.4231 0.6250 0.2500  0.2438
+  2d-reranker_score_gap_1_2(-)    higher→Hurt    0.1429       0.9167 0.5000 0.6101 0.2216  0.0800
+   2d-msmarco_ce_score_mean(+) higher→Benefit    0.3571       0.6667 0.5000 0.6071 0.2143  0.3443
+    2d-msmarco_ce_score_max(+) higher→Benefit    0.4286       0.6667 0.5385 0.6071 0.2143  0.3190
+  2d-reranker_score_entropy(+) higher→Benefit    0.1429       0.7500 0.4231 0.6012 0.2024  0.0711
+    2d-msmarco_ce_score_min(+) higher→Benefit    0.2857       0.9167 0.5769 0.6012 0.2024  0.3245
+      2d-colbert_score_mean(+) higher→Benefit    0.0714       0.9167 0.4615 0.5893 0.1786  0.2790
+    2d-msmarco_ce_score_std(-)    higher→Hurt    0.1429       0.9167 0.5000 0.5833 0.1667  0.3050
+   2d-colbert_score_gap_1_2(+) higher→Benefit    1.0000       0.1667 0.6154 0.5774 0.1548  0.2883
+      2d-reranker_score_std(+) higher→Benefit    0.5714       0.4167 0.5000 0.5774 0.1548  0.0010
+       2d-colbert_score_max(+) higher→Benefit    0.0714       0.9167 0.4615 0.5774 0.1548  0.2753
+       2d-colbert_score_min(+) higher→Benefit    0.0714       0.7500 0.3846 0.5774 0.1548  0.3098
+2d-msmarco_ce_score_gap_1_k(-)    higher→Hurt    0.1429       0.8333 0.4615 0.5774 0.1548  0.3252
+     2d-reranker_score_mean(-)    higher→Hurt    0.5714       0.3333 0.4615 0.5714 0.1429 -0.0161
+      2d-reranker_score_max(-)    higher→Hurt    0.8571       0.0833 0.5000 0.5655 0.1325  0.0089
+   2d-reranker_top3_vs_rest(+) higher→Benefit    0.7143       0.2500 0.5000 0.5595 0.1190  0.0653
+2d-msmarco_ce_score_entropy(-)    higher→Hurt    0.8571       0.1667 0.5385 0.5536 0.1071 -0.0014
+2d-msmarco_ce_score_gap_1_2(-)    higher→Hurt    0.3571       0.5000 0.4231 0.5476 0.0952  0.0280
+     2d-colbert_score_slope(+) higher→Benefit    0.2857       0.6667 0.4615 0.5476 0.0952  0.0520
+   2d-colbert_score_entropy(+) higher→Benefit    0.4286       0.5000 0.4615 0.5417 0.0833 -0.0509
+    2d-colbert_top3_vs_rest(-)    higher→Hurt    0.2857       0.6667 0.4615 0.5298 0.0595  0.0082
+       2d-colbert_score_std(-)    higher→Hurt    0.2143       0.5833 0.3846 0.5238 0.0476  0.0062
+  2d-reranker_score_gap_1_k(-)    higher→Hurt    0.3571       0.5833 0.4615 0.5179 0.0357  0.1214
+    2d-reranker_score_slope(+) higher→Benefit    0.2143       0.6667 0.4231 0.5119 0.0238  0.0944
+   2d-colbert_score_gap_1_k(+) higher→Benefit    0.7143       0.1667 0.4615 0.5060 0.0119  0.0701

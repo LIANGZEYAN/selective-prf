@@ -1,0 +1,19 @@
+2026-03-08 16:53:14,377  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/run_llama70b_20260308_165314.log
+2026-03-08 16:53:14,712  INFO      Running SC-Setwise-Llama-70B with 43 queries, R=5, temp=0.7
+2026-03-08 16:53:14,712  INFO      --- SC-Setwise-Llama-70B run 1/5 ---
+2026-03-08 17:01:42,715  INFO        Run 1 complete
+2026-03-08 17:01:42,716  INFO      --- SC-Setwise-Llama-70B run 2/5 ---
+2026-03-08 17:10:08,300  INFO        Run 2 complete
+2026-03-08 17:10:08,303  INFO      --- SC-Setwise-Llama-70B run 3/5 ---
+2026-03-08 17:18:34,685  INFO        Run 3 complete
+2026-03-08 17:18:34,686  INFO      --- SC-Setwise-Llama-70B run 4/5 ---
+2026-03-08 17:27:10,736  INFO        Run 4 complete
+2026-03-08 17:27:10,738  INFO      --- SC-Setwise-Llama-70B run 5/5 ---
+2026-03-08 17:35:31,152  INFO        Run 5 complete
+2026-03-08 17:35:31,153  INFO      All 5 runs complete in 2536.4s
+2026-03-08 17:35:31,222  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Setwise-Llama-70B_scores.csv
+2026-03-08 17:35:33,423  INFO        SC-Setwise-Llama-70B-DCG: TPR_H=0.4286, TPR_B=0.5, Acc=0.4615, AUC=0.7679, Gamma=0.4086 (p=0.0052)
+2026-03-08 17:35:35,619  INFO        SC-Setwise-Llama-70B-MRR: TPR_H=0.5, TPR_B=0.75, Acc=0.6154, AUC=0.7857, Gamma=0.4373 (p=0.0016)
+2026-03-08 17:35:37,838  INFO        SC-Setwise-Llama-70B-Majority@k: TPR_H=0.5, TPR_B=0.6667, Acc=0.5769, AUC=0.753, Gamma=0.446 (p=0.0096)
+2026-03-08 17:35:37,838  INFO      SC-Setwise-Llama-70B complete.
+2026-03-08 17:35:37,838  INFO      All Llama-3.3-70B methods complete.

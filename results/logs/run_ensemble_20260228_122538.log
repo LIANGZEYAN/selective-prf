@@ -1,0 +1,6 @@
+2026-02-28 12:25:38,661  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/run_ensemble_20260228_122538.log
+2026-02-28 12:25:38,668  WARNING   Skipping R1-7b ensemble: Cached results not found: /mnt/primary/QE audit/rankllm/results/posthoc/r1_7b_dcg.csv. Run the corresponding method first.
+2026-02-28 12:25:38,668  WARNING   Skipping R1-14b ensemble: Cached results not found: /mnt/primary/QE audit/rankllm/results/posthoc/r1_14b_dcg.csv. Run the corresponding method first.
+2026-02-28 12:25:38,668  WARNING   Skipping R1-7b-sft ensemble: Cached results not found: /mnt/primary/QE audit/rankllm/results/posthoc/r1_7b-sft_dcg.csv. Run the corresponding method first.
+2026-02-28 12:25:38,668  WARNING   Skipping R1-14b-sft ensemble: Cached results not found: /mnt/primary/QE audit/rankllm/results/posthoc/r1_14b-sft_dcg.csv. Run the corresponding method first.
+2026-02-28 12:25:38,668  INFO      Ensemble methods complete.

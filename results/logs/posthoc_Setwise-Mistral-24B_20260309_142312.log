@@ -1,0 +1,10 @@
+2026-03-09 14:23:12,504  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/posthoc_Setwise-Mistral-24B_20260309_142312.log
+2026-03-09 14:23:12,505  INFO      ============================================================
+2026-03-09 14:23:12,505  INFO      Model config: Setwise-Mistral-24B
+2026-03-09 14:23:12,505  INFO        method : setwise
+2026-03-09 14:23:12,505  INFO        model  : mistralai/Mistral-Small-3.1-24B-Instruct-2503
+2026-03-09 14:23:12,505  INFO        lora   : None
+2026-03-09 14:23:12,505  INFO        prompt : base
+2026-03-09 14:23:12,505  INFO      ============================================================
+2026-03-09 14:23:12,551  INFO      Queries: 43 (labels=43, interleaved=43)
+2026-03-09 14:23:12,560  INFO      Ranker created in 0.0s

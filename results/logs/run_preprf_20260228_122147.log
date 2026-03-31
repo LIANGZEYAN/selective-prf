@@ -1,0 +1,8 @@
+2026-02-28 12:21:47,735  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/run_preprf_20260228_122147.log
+2026-02-28 12:21:49,016  INFO      Running pre-PRF methods on 43 queries
+2026-02-28 12:21:52,219  INFO      WIG — Acc=0.4615  AUC=0.5893
+2026-02-28 12:21:55,218  INFO      NQC — Acc=0.5385  AUC=0.4762
+2026-02-28 12:21:58,359  INFO      Clarity — Acc=0.3462  AUC=0.4583
+2026-02-28 12:22:01,298  INFO      SMV — Acc=0.4615  AUC=0.5298
+2026-02-28 12:22:12,174  INFO      TDC — Acc=0.4615  AUC=0.5833
+2026-02-28 12:22:12,175  INFO      All pre-PRF methods complete.

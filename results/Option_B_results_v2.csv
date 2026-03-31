@@ -1,0 +1,4 @@
+model,n_hurt,n_benefit,n_evaluated,hurt_recall,benefit_recall,accuracy,auc,gamma,gamma_p,spearman_rho,spearman_p
+TREC nDCG@10 (upper bound),14,12,26,0.429,0.75,0.577,0.72,0.44,0.032,0.408,0.0388
+Qwen-2.5-72B-Instruct (pairwise),14,12,26,0.643,0.833,0.731,0.81,0.619,0.0028,0.494,0.0103
+Qwen-2.5-7B-Instruct (pairwise),14,12,26,0.143,0.833,0.462,0.482,-0.037,0.5618,0.169,0.4095

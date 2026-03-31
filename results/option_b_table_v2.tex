@@ -1,0 +1,142 @@
+% ============================================================
+% Table: PRF Preference Prediction — Option B
+% h = 0.061 (MAD of Qwen-2.5-72B predicted ratios)
+% Evaluated on 26 queries: 14 PRF-Hurt + 12 PRF-Benefit
+% Neutral queries excluded from ALL metrics.
+% Gamma and Spearman rho computed on the same 26 queries.
+% p-values: gamma via permutation test (5000 shuffles, one-sided);
+%           rho via asymptotic t-test (scipy).
+% Required packages: booktabs, multirow, caption, adjustbox
+% ============================================================
+
+\begin{table*}[htbp]
+\centering
+\caption{%
+  PRF preference prediction results under Option~B
+  ($h{=}0.061$, MAD of Qwen-2.5-72B predicted ratios;
+  $N{=}26$: 14 PRF-Hurt, 12 PRF-Benefit; neutral queries excluded).
+  \textbf{Hurt~R} / \textbf{Ben~R}: recall on PRF-Hurt / PRF-Benefit queries.
+  \textbf{Acc}: accuracy over non-neutral queries.
+  \textbf{AUC}: area under ROC curve (Benefit vs.\ Hurt).
+  $\boldsymbol{\gamma}$: Goodman--Kruskal Gamma (ordinal $\{$Hurt$<$Benefit$\}$
+    vs.\ continuous predictor score; $p_\gamma$ via permutation, one-sided).
+  $\boldsymbol{\rho}$: Spearman rank correlation (predictor score
+    vs.\ human $b$-preference ratio; $p_\rho$ two-tailed).
+  All metrics computed on the same 26 non-neutral queries.
+  The TREC row uses the nDCG@10 delta (PRF$-$ColBERT) as predictor and
+  serves as an \emph{upper bound} requiring ground-truth relevance judgements.
+  All other methods require \emph{no} relevance judgements.
+  ``--'' denotes results pending.
+}
+\label{tab:prf_results_optionb}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llccccccc@{}}
+\toprule
+\textbf{Method} &
+\textbf{Predictor} &
+\textbf{Hurt R} &
+\textbf{Ben R} &
+\textbf{Acc} &
+\textbf{AUC} &
+$\boldsymbol{\gamma}$ & $p_{\gamma}$ &
+$\boldsymbol{\rho}$ \; ($p_{\rho}$) \\
+\midrule
+
+%% ── Upper Bound ──────────────────────────────────────────────────────────────
+\multicolumn{9}{l}{\textit{Upper bound (requires TREC relevance judgements)}} \\[2pt]
+TREC nDCG@10   & nDCG$\Delta$ sign
+  & 0.429 & 0.750 & 0.577 & 0.720
+  & 0.440 & 0.032$^{*}$
+  & 0.408 \;(0.039$^{*}$) \\
+
+\midrule
+%% ── QPP Methods ──────────────────────────────────────────────────────────────
+\multicolumn{9}{l}{\textit{Query Performance Prediction (QPP) --- uses retrieval scores, no relevance judgements}} \\[2pt]
+
+WIG~\cite{zhou2007query}
+  & score wt.\ gain  & -- & -- & -- & -- & -- & -- & -- \\
+
+NQC~\cite{shtok2012predicting}
+  & norm.\ query commit.  & -- & -- & -- & -- & -- & -- & -- \\
+
+Clarity~\cite{cronen2002predicting}
+  & KL divergence  & -- & -- & -- & -- & -- & -- & -- \\
+
+SMV~\cite{tao2014query}
+  & score mean var.  & -- & -- & -- & -- & -- & -- & -- \\
+
+\midrule
+%% ── LLM Pairwise ─────────────────────────────────────────────────────────────
+\multicolumn{9}{l}{\textit{LLM Pairwise Reranker --- DCG-weighted PRF ratio, heapsort, $k{=}9$}} \\[2pt]
+
+Qwen-2.5-7B-Instruct
+  & pairwise ratio
+  & 0.143 & 0.833 & 0.462 & 0.482
+  & $-$0.037 & 0.562
+  & 0.169 \;(0.410) \\
+
+Qwen-2.5-14B-Instruct
+  & pairwise ratio  & -- & -- & -- & -- & -- & -- & -- \\
+
+Qwen-2.5-72B-Instruct
+  & pairwise ratio
+  & \textbf{0.643} & \textbf{0.833} & \textbf{0.731} & \textbf{0.810}
+  & \textbf{0.619} & \textbf{0.003}$^{**}$
+  & \textbf{0.494} \;(\textbf{0.010}$^{**}$) \\
+
+Rank-R1-7B-Instruct-SFT
+  & pairwise ratio  & -- & -- & -- & -- & -- & -- & -- \\
+
+Rank-R1-14B-Instruct-SFT
+  & pairwise ratio  & -- & -- & -- & -- & -- & -- & -- \\
+
+\midrule
+%% ── LLM Setwise ──────────────────────────────────────────────────────────────
+\multicolumn{9}{l}{\textit{LLM Setwise Reranker --- DCG-weighted PRF ratio}} \\[2pt]
+
+Rank-R1-7B-Instruct
+  & setwise ratio  & -- & -- & -- & -- & -- & -- & -- \\
+
+Rank-R1-14B-Instruct
+  & setwise ratio  & -- & -- & -- & -- & -- & -- & -- \\
+
+\bottomrule
+\end{tabular}%
+}
+\begin{tablenotes}
+\small
+\item $^{*}p{<}0.05$;\quad $^{**}p{<}0.01$.
+\quad \textbf{Bold}: best result among methods requiring no relevance judgements.
+\item $\gamma$ and $\rho$ are both computed on the 26 non-neutral queries.
+  $p_\gamma$: one-sided permutation test (5{,}000 shuffles).
+  $p_\rho$: two-tailed asymptotic $t$-test.
+\end{tablenotes}
+\end{table*}
+
+%% ── BibTeX entries ───────────────────────────────────────────────────────────
+%% @inproceedings{zhou2007query,
+%%   author    = {Zhou, Yun and Croft, W. Bruce},
+%%   title     = {Query Performance Prediction in Web Search Environments},
+%%   booktitle = {SIGIR},
+%%   year      = {2007}
+%% }
+%% @article{shtok2012predicting,
+%%   author  = {Shtok, Anna and Kurland, Oren and Carmel, David and
+%%              Raiber, Fiana and Markovits, Gad},
+%%   title   = {Predicting Query Performance by Query-Drift Estimation},
+%%   journal = {ACM Trans.\ Inf.\ Syst.},
+%%   year    = {2012}
+%% }
+%% @inproceedings{cronen2002predicting,
+%%   author    = {Cronen-Townsend, Steve and Zhou, Yun and Croft, W. Bruce},
+%%   title     = {Predicting Query Performance},
+%%   booktitle = {SIGIR},
+%%   year      = {2002}
+%% }
+%% @inproceedings{tao2014query,
+%%   author    = {Tao, Yifan and Wu, Shengli},
+%%   title     = {Query Performance Prediction by Considering Score
+%%                Magnitude and Variance Together},
+%%   booktitle = {CIKM},
+%%   year      = {2014}
+%% }

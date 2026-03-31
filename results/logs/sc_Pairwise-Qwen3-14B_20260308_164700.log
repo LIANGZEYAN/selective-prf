@@ -1,0 +1,13 @@
+2026-03-08 16:47:00,381  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Pairwise-Qwen3-14B_20260308_164700.log
+2026-03-08 16:47:00,382  INFO      ============================================================
+2026-03-08 16:47:00,382  INFO      Self-Consistency config: SC-Pairwise-Qwen3-14B
+2026-03-08 16:47:00,382  INFO        method      : pairwise
+2026-03-08 16:47:00,382  INFO        model       : Qwen/Qwen3-14B
+2026-03-08 16:47:00,382  INFO        lora        : None
+2026-03-08 16:47:00,382  INFO        prompt      : None
+2026-03-08 16:47:00,382  INFO        temperature : 0.7
+2026-03-08 16:47:00,382  INFO        num_runs    : 5
+2026-03-08 16:47:00,382  INFO      ============================================================
+2026-03-08 16:47:00,411  INFO      Queries: 43
+2026-03-08 16:51:26,762  INFO      Ranker created in 266.4s
+2026-03-08 16:51:26,763  INFO      --- SC run 1/5 ---

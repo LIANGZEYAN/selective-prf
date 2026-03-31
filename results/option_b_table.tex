@@ -1,0 +1,129 @@
+% ============================================================
+% Table: PRF Preference Prediction Results (Option B)
+% h = 0.061 (MAD of Qwen-2.5-72B predicted ratios)
+% Evaluated on 26 queries: 14 PRF-Hurt + 12 PRF-Benefit
+% Neutral queries excluded. 95% Wilson score CIs in brackets.
+% "--" = result pending.
+%
+% Required packages: booktabs, multirow, siunitx (optional),
+%                    caption, adjustbox or resizebox
+% ============================================================
+
+\begin{table*}[htbp]
+\centering
+\caption{%
+  Results for PRF preference prediction ($N{=}26$; 14 PRF-Hurt, 12 PRF-Benefit).
+  The threshold $h{=}0.061$ is the MAD of Qwen-2.5-72B predicted ratios; neutral
+  queries (within one MAD of the median) are excluded from evaluation.
+  \textbf{Hurt R} and \textbf{Ben R} are recall on PRF-Hurt and PRF-Benefit
+  queries respectively; \textbf{Acc} is overall accuracy on non-neutral queries.
+  \textbf{AUC} is the area under the ROC curve (Benefit vs.\ Hurt, binary).
+  $\boldsymbol{\gamma}$ is Goodman--Kruskal Gamma (ordinal human label vs.\
+  continuous predictor score, $n{=}41$).
+  $\boldsymbol{\rho}$ is Spearman rank correlation (continuous predictor vs.\
+  human $b$-preference ratio, $n{=}41$; $^{*}p{<}0.05$, $^{**}p{<}0.01$).
+  The TREC row uses the sign of the nDCG@10 delta (PRF $-$ ColBERT) as the
+  binary predictor and its continuous value for AUC/$\gamma$/$\rho$; it serves
+  as an \emph{upper bound} requiring ground-truth relevance judgements.
+  All LLM methods require \emph{no} relevance judgements.
+  ``--'' denotes results pending.%
+}
+\label{tab:prf_prediction_results}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llccccccc@{}}
+\toprule
+\multirow{2}{*}{\textbf{Method}} &
+\multirow{2}{*}{\textbf{Predictor}} &
+\multicolumn{2}{c}{\textbf{Hurt R} $[\text{95\% CI}]$} &
+\multicolumn{2}{c}{\textbf{Ben R} $[\text{95\% CI}]$} &
+\textbf{Acc} $[\text{95\% CI}]$ &
+\textbf{AUC} $[\text{95\% CI}]$ &
+$\boldsymbol{\gamma}$ \;/\; $\boldsymbol{\rho}$ \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+& & value & {[lo, hi]} & value & {[lo, hi]} & & & \\
+\midrule
+%% ── Upper Bound ──────────────────────────────────────────────────────────────
+\multicolumn{9}{l}{\textit{Upper Bound (requires TREC relevance judgements)}} \\[2pt]
+TREC nDCG@10 & nDCG$\Delta$ sign
+  & 0.429 & {[0.214, 0.674]}
+  & 0.750 & {[0.468, 0.911]}
+  & 0.577 {[0.389, 0.745]}
+  & 0.720 {[0.518, 0.922]}
+  & 0.283 / 0.347$^{*}$ \\
+\midrule
+%% ── QPP Methods ──────────────────────────────────────────────────────────────
+\multicolumn{9}{l}{\textit{Query Performance Prediction (QPP) --- no ground truth, uses retrieval scores only}} \\[2pt]
+WIG~\cite{zhou2007query}      & score variance
+  & -- & {[--,\,--]} & -- & {[--,\,--]} & -- {[--,\,--]} & -- {[--,\,--]} & -- / -- \\
+NQC~\cite{shtok2012predicting} & norm.\ query commit.
+  & -- & {[--,\,--]} & -- & {[--,\,--]} & -- {[--,\,--]} & -- {[--,\,--]} & -- / -- \\
+Clarity~\cite{cronen2002predicting} & KL divergence
+  & -- & {[--,\,--]} & -- & {[--,\,--]} & -- {[--,\,--]} & -- {[--,\,--]} & -- / -- \\
+SMV~\cite{tao2014query}        & score mean var.
+  & -- & {[--,\,--]} & -- & {[--,\,--]} & -- {[--,\,--]} & -- {[--,\,--]} & -- / -- \\
+\midrule
+%% ── LLM Pairwise Rerankers ───────────────────────────────────────────────────
+\multicolumn{9}{l}{\textit{LLM Pairwise Reranker (DCG-weighted PRF ratio, heapsort, $k{=}9$)}} \\[2pt]
+Qwen-2.5-7B-Instruct   & pairwise ratio
+  & 0.143 & {[0.040, 0.399]}
+  & 0.833 & {[0.552, 0.953]}
+  & 0.462 {[0.288, 0.645]}
+  & 0.482 {[0.256, 0.708]}
+  & $-$0.029 / 0.024 \\
+Qwen-2.5-14B-Instruct  & pairwise ratio
+  & -- & {[--,\,--]} & -- & {[--,\,--]} & -- {[--,\,--]} & -- {[--,\,--]} & -- / -- \\
+Qwen-2.5-72B-Instruct  & pairwise ratio
+  & \textbf{0.643} & \textbf{[0.388, 0.837]}
+  & \textbf{0.833} & \textbf{[0.552, 0.953]}
+  & \textbf{0.731} \textbf{[0.539, 0.863]}
+  & \textbf{0.810} \textbf{[0.636, 0.984]}
+  & \textbf{0.376} / 0.400$^{**}$ \\
+Rank-R1-7B-Instruct-SFT   & pairwise ratio
+  & -- & {[--,\,--]} & -- & {[--,\,--]} & -- {[--,\,--]} & -- {[--,\,--]} & -- / -- \\
+Rank-R1-14B-Instruct-SFT  & pairwise ratio
+  & -- & {[--,\,--]} & -- & {[--,\,--]} & -- {[--,\,--]} & -- {[--,\,--]} & -- / -- \\
+\midrule
+%% ── LLM Setwise Rerankers ────────────────────────────────────────────────────
+\multicolumn{9}{l}{\textit{LLM Setwise Reranker (DCG-weighted PRF ratio)}} \\[2pt]
+Rank-R1-7B-Instruct    & setwise ratio
+  & -- & {[--,\,--]} & -- & {[--,\,--]} & -- {[--,\,--]} & -- {[--,\,--]} & -- / -- \\
+Rank-R1-14B-Instruct   & setwise ratio
+  & -- & {[--,\,--]} & -- & {[--,\,--]} & -- {[--,\,--]} & -- {[--,\,--]} & -- / -- \\
+\bottomrule
+\end{tabular}%
+}
+\begin{tablenotes}
+\small
+\item $^*p<0.05$;\quad $^{**}p<0.01$ (Spearman $\rho$, two-tailed).
+\item \textbf{Bold} denotes the best result among methods that require no relevance judgements.
+\item Hurt R and Ben R report recall with 95\% Wilson score confidence intervals.
+\item AUC is computed on the 26 non-neutral queries (binary: PRF-Benefit vs.\ PRF-Hurt).
+\item $\gamma$ and $\rho$ are computed over all 41 valid queries including neutral ones.
+\end{tablenotes}
+\end{table*}
+
+%% ── References (add to your .bib) ────────────────────────────────────────────
+%% @inproceedings{zhou2007query,
+%%   title={Query performance prediction in web search environments},
+%%   author={Zhou, Yun and Croft, W Bruce},
+%%   booktitle={SIGIR},
+%%   year={2007}
+%% }
+%% @inproceedings{shtok2012predicting,
+%%   title={Predicting query performance by query-drift estimation},
+%%   author={Shtok, Anna and Kurland, Oren and Carmel, David and Raiber, Fiana and Markovits, Gad},
+%%   booktitle={TOIS},
+%%   year={2012}
+%% }
+%% @inproceedings{cronen2002predicting,
+%%   title={Predicting query performance},
+%%   author={Cronen-Townsend, Steve and Zhou, Yun and Croft, W Bruce},
+%%   booktitle={SIGIR},
+%%   year={2002}
+%% }
+%% @inproceedings{tao2014query,
+%%   title={Query performance prediction by considering score magnitude and variance together},
+%%   author={Tao, Yifan and Wu, Shengli},
+%%   booktitle={CIKM},
+%%   year={2014}
+%% }

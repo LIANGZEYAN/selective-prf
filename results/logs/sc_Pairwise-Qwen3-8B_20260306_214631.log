@@ -1,0 +1,29 @@
+2026-03-06 21:46:31,151  INFO      Log file: /mnt/primary/QE audit/rankllm/results/logs/sc_Pairwise-Qwen3-8B_20260306_214631.log
+2026-03-06 21:46:31,151  INFO      ============================================================
+2026-03-06 21:46:31,151  INFO      Self-Consistency config: SC-Pairwise-Qwen3-8B
+2026-03-06 21:46:31,151  INFO        method      : pairwise
+2026-03-06 21:46:31,151  INFO        model       : Qwen/Qwen3-8B
+2026-03-06 21:46:31,151  INFO        lora        : None
+2026-03-06 21:46:31,151  INFO        prompt      : None
+2026-03-06 21:46:31,151  INFO        temperature : 0.7
+2026-03-06 21:46:31,151  INFO        num_runs    : 5
+2026-03-06 21:46:31,151  INFO      ============================================================
+2026-03-06 21:46:31,176  INFO      Queries: 43
+2026-03-06 21:46:37,445  INFO      Ranker created in 6.3s
+2026-03-06 21:46:37,445  INFO      --- SC run 1/5 ---
+2026-03-06 21:48:08,743  INFO        Run 1 complete
+2026-03-06 21:48:08,743  INFO      --- SC run 2/5 ---
+2026-03-06 21:49:39,990  INFO        Run 2 complete
+2026-03-06 21:49:40,009  INFO      --- SC run 3/5 ---
+2026-03-06 21:51:12,119  INFO        Run 3 complete
+2026-03-06 21:51:12,120  INFO      --- SC run 4/5 ---
+2026-03-06 21:52:45,306  INFO        Run 4 complete
+2026-03-06 21:52:45,307  INFO      --- SC run 5/5 ---
+2026-03-06 21:54:16,951  INFO        Run 5 complete
+2026-03-06 21:54:16,952  INFO      All 5 runs complete in 465.8s
+2026-03-06 21:54:16,975  INFO      Saved per-query SC scores → /mnt/primary/QE audit/rankllm/results/posthoc/SC-Pairwise-Qwen3-8B_scores.csv
+2026-03-06 21:54:19,215  INFO        SC-Pairwise-Qwen3-8B-DCG: TPR_H=0.0714, TPR_B=0.25, Acc=0.1538, AUC=0.7976, Gamma=0.405 (p=0.006), Rho=0.4225 (p=0.0059)
+2026-03-06 21:54:21,445  INFO        SC-Pairwise-Qwen3-8B-MRR: TPR_H=0.3571, TPR_B=0.5833, Acc=0.4615, AUC=0.7976, Gamma=0.4014 (p=0.0068), Rho=0.4173 (p=0.0066)
+2026-03-06 21:54:23,790  INFO        SC-Pairwise-Qwen3-8B-Majority@k: TPR_H=0.5, TPR_B=0.6667, Acc=0.5769, AUC=0.7083, Gamma=0.3234 (p=0.04), Rho=0.3364 (p=0.0315)
+2026-03-06 21:54:23,790  INFO      === SC-Pairwise-Qwen3-8B COMPLETE ===
+
