@@ -114,12 +114,6 @@ The following LLM families are evaluated:
 If you use this code, please cite:
 
 ```
-@inproceedings{liang2026auditing,
-  title={Auditing Query Drift: Do Users Actually Benefit from Pseudo-Relevance Feedback?},
-  author={Liang, Zeyan and McDonald, Graham and Ounis, Iadh},
-  booktitle={Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '26)},
-  year={2026}
-}
 ```
 
 ## License
